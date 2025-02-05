@@ -680,6 +680,10 @@
       "Root"
     ],
     [
+      "d34df37d-94b6-45ab-99ed-47ba0f34ea70",
+      "robotic_hand_pcb_tof"
+    ],
+    [
       "f209e5e9-1726-454a-82e1-5fd492ecf1c3",
       "robotic_hand_pcb_imu"
     ],
@@ -689,7 +693,7 @@
     ],
     [
       "519c2916-f1e5-4bf2-b7d2-8398d436960c",
-      "robotic_hand_pcb_unipolar_steppers"
+      "robotic_hand_pcb_servos"
     ]
   ],
   "text_variables": {}

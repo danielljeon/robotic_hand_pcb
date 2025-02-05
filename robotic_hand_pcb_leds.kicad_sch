@@ -10,6 +10,125 @@
 		(company "Daniel Jeon")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -684,177 +803,187 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 62.23) (xy 114.3 60.96)
+			(xy 81.28 39.37) (xy 77.47 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00965ec7-bbeb-4fbf-b200-44a9ffe78ae9")
+		(uuid "11aad295-53ff-4028-9d44-9780e06a3390")
 	)
 	(wire
 		(pts
-			(xy 152.4 58.42) (xy 151.13 58.42)
+			(xy 115.57 39.37) (xy 127 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00d3c070-1000-43bc-b0c5-8fe537e1e5bb")
+		(uuid "1753ba56-c6aa-4f2a-90f3-e1078abb0f23")
 	)
 	(wire
 		(pts
-			(xy 125.73 53.34) (xy 121.92 53.34)
+			(xy 125.73 44.45) (xy 125.73 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "043d21ab-3d72-4a20-9b01-8b342926e2ca")
+		(uuid "214e72cf-4584-4bb8-aa33-36e6eb2e6ac9")
 	)
 	(wire
 		(pts
-			(xy 67.31 53.34) (xy 68.58 53.34)
+			(xy 88.9 48.26) (xy 88.9 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2a42477b-c99f-45d4-8719-6185e0cc887b")
+		(uuid "257dfc9d-28bf-4827-9e64-914d2742ca59")
 	)
 	(wire
 		(pts
-			(xy 114.3 44.45) (xy 114.3 45.72)
+			(xy 69.85 48.26) (xy 69.85 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34be6164-9632-41be-8726-a3105e5d23aa")
+		(uuid "5e2a1962-4c88-4c23-b57c-ef9898a8f292")
 	)
 	(wire
 		(pts
-			(xy 151.13 58.42) (xy 151.13 59.69)
+			(xy 88.9 30.48) (xy 88.9 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a9936bc-c96f-4eb7-90ee-294e05cea430")
+		(uuid "630cf770-18f6-430f-bee7-6d58e985cf26")
 	)
 	(wire
 		(pts
-			(xy 95.25 44.45) (xy 95.25 45.72)
+			(xy 127 44.45) (xy 125.73 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3aac66a6-1ea3-4693-bcbc-3d82f1a671a0")
+		(uuid "6ddaa673-ce3b-4d3c-9cbd-d5a22c3c83f1")
 	)
 	(wire
 		(pts
-			(xy 76.2 62.23) (xy 76.2 60.96)
+			(xy 69.85 30.48) (xy 69.85 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "481b4250-d0e7-4b03-bb05-12b9d417b1d1")
+		(uuid "81d9d702-b299-4410-bfd0-5a84d8428cec")
 	)
 	(wire
 		(pts
-			(xy 76.2 44.45) (xy 76.2 45.72)
+			(xy 50.8 30.48) (xy 50.8 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c8f7cf6-3605-46dd-b90e-fe2f3e65a48b")
+		(uuid "8fb17d3b-1b1e-47bb-88f2-3055d8ff469b")
 	)
 	(wire
 		(pts
-			(xy 140.97 53.34) (xy 152.4 53.34)
+			(xy 38.1 76.2) (xy 63.5 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8990e67-91c2-4ac8-9208-ce61aadbc72f")
+		(uuid "902c443c-b120-4f4a-bfab-771abb2b04a8")
 	)
 	(wire
 		(pts
-			(xy 133.35 62.23) (xy 133.35 60.96)
+			(xy 124.46 30.48) (xy 124.46 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6724608-a07c-4a3d-bdc0-493ae0d7442d")
+		(uuid "94627016-32bb-4193-9683-87524ed25b2b")
 	)
 	(wire
 		(pts
-			(xy 149.86 44.45) (xy 149.86 55.88)
+			(xy 41.91 39.37) (xy 43.18 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7aaf655-ddb4-4b57-bfb1-ddb069c33fdb")
+		(uuid "aee512d6-5cb0-4363-9833-68e511f341a9")
 	)
 	(wire
 		(pts
-			(xy 83.82 53.34) (xy 87.63 53.34)
+			(xy 107.95 48.26) (xy 107.95 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7a1623d-a536-4bac-bb87-9a10a699f823")
+		(uuid "ca84d2e9-a7ef-4d53-9474-231d88489c46")
 	)
 	(wire
 		(pts
-			(xy 106.68 53.34) (xy 102.87 53.34)
+			(xy 100.33 39.37) (xy 96.52 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dccce58a-94bb-45d6-81a9-380af840cf2b")
+		(uuid "cde65801-e716-40f7-9058-5e93deff35af")
 	)
 	(wire
 		(pts
-			(xy 133.35 44.45) (xy 133.35 45.72)
+			(xy 107.95 30.48) (xy 107.95 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "def98315-0bf5-4509-9fcb-2ecb40b72214")
+		(uuid "ddf10def-3e6b-4b06-95fe-45b06173fa50")
 	)
 	(wire
 		(pts
-			(xy 95.25 62.23) (xy 95.25 60.96)
+			(xy 50.8 48.26) (xy 50.8 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e679fc82-c8c3-4068-914d-5ab056fa79b0")
+		(uuid "e35ae1d5-85d6-4692-b320-ac93319ca35b")
 	)
 	(wire
 		(pts
-			(xy 149.86 55.88) (xy 152.4 55.88)
+			(xy 58.42 39.37) (xy 62.23 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f54aca4f-dfba-4169-8f81-39b10c7840dc")
+		(uuid "e5f6784a-3fdd-4814-a09f-88d8c4b11208")
+	)
+	(wire
+		(pts
+			(xy 124.46 41.91) (xy 127 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f3680b-3132-488a-a768-7652cb6eacf4")
 	)
 	(rectangle
-		(start 50.8 38.1)
-		(end 177.8 67.31)
+		(start 25.4 24.13)
+		(end 152.4 53.34)
 		(stroke
 			(width 0)
 			(type default)
@@ -862,11 +991,11 @@
 		(fill
 			(type none)
 		)
-		(uuid c15a6fdc-e770-460a-abbb-ae12817518f5)
+		(uuid 37f78061-2f09-40a3-8366-295e8a9d88a4)
 	)
 	(text "Addressable RGB LEDs"
 		(exclude_from_sim no)
-		(at 52.07 65.278 0)
+		(at 26.67 51.308 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -874,96 +1003,55 @@
 			)
 			(justify left top)
 		)
-		(uuid "37182656-a93e-4e7d-a7a5-e07dfe02c12d")
+		(uuid "c8a62bcc-a442-40c7-9bb7-cf16469e1198")
 	)
-	(hierarchical_label "WS2812B_PWM"
+	(text "WIP - Photodiode"
+		(exclude_from_sim no)
+		(at 63.246 84.582 0)
+		(effects
+			(font
+				(size 3.175 3.175)
+				(thickness 0.635)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "d8a3d965-9481-4e77-b957-47ff18cedf99")
+	)
+	(hierarchical_label "ADC_PHOTODIODE"
 		(shape input)
-		(at 67.31 53.34 180)
+		(at 38.1 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "86d8e5fa-6ed2-49fe-90c0-82bd8630c54a")
+		(uuid "05140533-e332-406a-83ed-f17c5f9c4f46")
 	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 149.86 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a483a83-1283-491e-b007-bd50aa3cd5a8")
-		(property "Reference" "#PWR057"
-			(at 149.86 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+	(hierarchical_label "WS2812B_PWM"
+		(shape input)
+		(at 41.91 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "+5V"
-			(at 149.86 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 149.86 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "187f0f27-d01b-42a5-99ae-36fffe45095f")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "611f1457-e8ed-440c-b519-26276c699b51")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 59.69 0)
+		(at 107.95 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2fc5d0b2-b5dd-4883-9a91-3d49a3b342b9")
-		(property "Reference" "#PWR058"
-			(at 151.13 66.04 0)
+		(uuid "03d8376b-2ab7-4b88-a602-d0cb35632127")
+		(property "Reference" "#PWR062"
+			(at 107.95 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -972,7 +1060,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 64.77 0)
+			(at 107.95 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -981,7 +1069,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 59.69 0)
+			(at 107.95 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -990,7 +1078,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 59.69 0)
+			(at 107.95 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -999,7 +1087,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 59.69 0)
+			(at 107.95 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1008,7 +1096,373 @@
 			)
 		)
 		(pin "1"
-			(uuid "c6f7f9e7-f4d5-4b2e-b688-71b80e0fe4ac")
+			(uuid "c18b317b-5206-4f5a-a571-a090ed8b8c05")
+		)
+		(instances
+			(project "robotic_hand_pcb"
+				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 69.85 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17c45f2b-217f-444f-a8aa-55dd9e710702")
+		(property "Reference" "D2"
+			(at 72.898 30.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 76.2 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 71.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 72.39 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 69.85 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e2adadf1-a0f9-4d1b-ab54-e5ddad80ef6f")
+		)
+		(pin "3"
+			(uuid "31c59747-3384-4646-8801-a03ec1935ebd")
+		)
+		(pin "2"
+			(uuid "be316712-9a51-409e-bf41-e5b370581830")
+		)
+		(pin "1"
+			(uuid "ad8e5473-bd3c-411a-a0e4-6787f3898419")
+		)
+		(instances
+			(project "robotic_hand_pcb"
+				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 50.8 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e4807de-298a-4781-9a7f-639d9a004b04")
+		(property "Reference" "D1"
+			(at 53.848 30.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 57.15 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 52.07 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 53.34 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 50.8 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ad7b509c-8602-4463-950e-e8943a9e00ca")
+		)
+		(pin "3"
+			(uuid "ee530bbe-0751-43ca-ad62-24c4a16c56a5")
+		)
+		(pin "2"
+			(uuid "4846474a-0f07-4386-b386-519e442f6e6b")
+		)
+		(pin "1"
+			(uuid "32c98529-cd58-42dd-a1cd-9d1ccc326f05")
+		)
+		(instances
+			(project "robotic_hand_pcb"
+				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 132.08 41.91 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b65b13a-18a6-4ec0-8137-c671738132d1")
+		(property "Reference" "J14"
+			(at 133.35 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 133.35 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 132.08 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d21b2cab-c9b1-4eb3-add9-894506f9149a")
+		)
+		(pin "3"
+			(uuid "632a5155-55a7-405e-8cfd-43bd817ee2bc")
+		)
+		(pin "2"
+			(uuid "b0c41bbe-7e77-4bd0-a05e-22fb9170eb83")
+		)
+		(instances
+			(project "robotic_hand_pcb"
+				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 88.9 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37e5adf0-260d-4a11-8929-60b348addaf2")
+		(property "Reference" "D3"
+			(at 91.948 30.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 95.25 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 90.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 91.44 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 88.9 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6f9ef48e-7851-4bee-9138-85776d49ab99")
+		)
+		(pin "3"
+			(uuid "6e628a9b-6fc9-4e28-8ce8-752cf31ad393")
+		)
+		(pin "2"
+			(uuid "f537ae97-0291-4ce2-8307-ae916cdd1b6e")
+		)
+		(pin "1"
+			(uuid "b3e915ad-4786-48ad-a938-3acbd7b306d0")
+		)
+		(instances
+			(project "robotic_hand_pcb"
+				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ad474e6-c398-43a8-adba-7933d54d7049")
+		(property "Reference" "#PWR058"
+			(at 125.73 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0b8bbf7-50de-4402-aa04-fdbe3d68f38a")
 		)
 		(instances
 			(project "robotic_hand_pcb"
@@ -1021,645 +1475,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 114.3 44.45 0)
+		(at 107.95 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "546b9116-0c5d-43f8-898b-3e8398d2461b")
-		(property "Reference" "#PWR055"
-			(at 114.3 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 114.3 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 114.3 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fde2b9d3-834d-4ee3-9760-ce5b2cedcf53")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 95.25 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5882c396-718b-4918-a017-666c003be503")
-		(property "Reference" "#PWR060"
-			(at 95.25 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 95.25 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ddbea2c-9635-49af-953d-6d4c16a1ed84")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 157.48 55.88 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5987b70c-23cb-48e9-b122-b7538aa942eb")
-		(property "Reference" "J4"
-			(at 158.75 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 158.75 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 157.48 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db0d06d5-6251-417a-ba24-b6e0a0d63d3f")
-		)
-		(pin "3"
-			(uuid "49a7c3aa-61ff-4795-92d7-4097834d1d38")
-		)
-		(pin "2"
-			(uuid "30b82b90-eda4-40ce-a360-1b9b57a34c0a")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.3 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e34032e-b07d-4f23-893a-6d968675214b")
-		(property "Reference" "#PWR061"
-			(at 114.3 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a2593a0-5a7c-41f3-9d38-4e3313f5be34")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
-					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 114.3 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85134bee-cd57-4da9-9e33-2896349ee2ae")
-		(property "Reference" "D3"
-			(at 117.348 44.1646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 120.65 46.736 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 115.57 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 116.84 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 114.3 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "1d29aacd-37f6-4ee6-ab6f-71d33e5d4882")
-		)
-		(pin "3"
-			(uuid "93dfb901-99b5-4c04-8fd6-49c208d08ed8")
-		)
-		(pin "2"
-			(uuid "fc7c7495-fc99-4f5e-9a5e-9cd3f042b090")
-		)
-		(pin "1"
-			(uuid "17ccb3a6-46d7-4523-8ca3-2863dd279625")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 133.35 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8746f6f6-2d07-48b9-b72f-98fd4c667144")
-		(property "Reference" "D4"
-			(at 136.398 44.1646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 139.7 46.736 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 134.62 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 135.89 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 133.35 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "5af1df10-24c6-4833-b906-3adafa21df2e")
-		)
-		(pin "3"
-			(uuid "40136388-7cc0-4356-85e2-a36f703d9796")
-		)
-		(pin "2"
-			(uuid "cb7edbb5-c689-4e1a-8cea-b6887846a191")
-		)
-		(pin "1"
-			(uuid "90b66bec-5a59-4152-8544-e9367964fcdb")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 76.2 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b5dc82f-ce02-4e47-a77c-dfb0711f7cf3")
-		(property "Reference" "#PWR053"
-			(at 76.2 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 76.2 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 76.2 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e74863e-51b6-4ead-b58a-6b5ae7993dd2")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 76.2 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ad665a9-4177-48cc-b33a-da70e6057a94")
-		(property "Reference" "#PWR059"
-			(at 76.2 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 76.2 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4cd93788-014f-44c3-8aa0-03875de07cd2")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 95.25 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a17bc9be-7fec-44e3-80d0-411a28eac6bc")
-		(property "Reference" "D2"
-			(at 98.298 44.1646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 101.6 46.736 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 96.52 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 97.79 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 95.25 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "87b79d65-f8f5-4d57-b7c9-5f276d945bc2")
-		)
-		(pin "3"
-			(uuid "a0c56d90-71b4-41aa-a39f-007fef66da22")
-		)
-		(pin "2"
-			(uuid "12a2c19f-30a4-46b2-8ee6-f1b7513a10bf")
-		)
-		(pin "1"
-			(uuid "90289064-9f55-48d9-a8d9-e33fbea78c3c")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 133.35 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b50463d0-238c-421b-b56f-9c5049846ec9")
+		(uuid "7791d997-d0d8-4658-b81d-30b474b24d44")
 		(property "Reference" "#PWR056"
-			(at 133.35 48.26 0)
+			(at 107.95 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,7 +1492,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 133.35 40.64 0)
+			(at 107.95 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1676,7 +1500,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 44.45 0)
+			(at 107.95 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1685,7 +1509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 44.45 0)
+			(at 107.95 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1694,7 +1518,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 133.35 44.45 0)
+			(at 107.95 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1703,7 +1527,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "61ee484e-c332-4b7c-89c0-8c3af4691408")
+			(uuid "849762eb-be13-4e7f-bcea-352238f94579")
 		)
 		(instances
 			(project "robotic_hand_pcb"
@@ -1715,17 +1539,92 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 107.95 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89f65e89-56a4-417c-bba1-ff84d3b83429")
+		(property "Reference" "D4"
+			(at 110.998 30.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 114.3 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 109.22 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 110.49 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 107.95 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "aae7bfd3-579a-42ff-a1e1-613f20a5be96")
+		)
+		(pin "3"
+			(uuid "729aeed0-6362-4ab9-885b-82188e008cac")
+		)
+		(pin "2"
+			(uuid "9ddea6f0-bc9b-48b3-a5f3-15643c7dbc34")
+		)
+		(pin "1"
+			(uuid "5d7fefa3-c3dd-4516-b5bd-274478d5ba40")
+		)
+		(instances
+			(project "robotic_hand_pcb"
+				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 133.35 62.23 0)
+		(at 50.8 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c6b8ddfb-503f-4bba-96ef-2321110245c1")
-		(property "Reference" "#PWR062"
-			(at 133.35 68.58 0)
+		(uuid "8d50d5b7-53fd-4593-abcd-f3659042b7db")
+		(property "Reference" "#PWR059"
+			(at 50.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1734,7 +1633,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 67.31 0)
+			(at 50.8 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,7 +1642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 62.23 0)
+			(at 50.8 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,7 +1651,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 62.23 0)
+			(at 50.8 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,7 +1660,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 62.23 0)
+			(at 50.8 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1770,12 +1669,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b15b245-f267-4279-bf35-834c4d87be25")
+			(uuid "b4be5d3b-0a60-4ed7-8dd5-9d7dc39a1548")
 		)
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
-					(reference "#PWR062")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -1783,15 +1682,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 95.25 44.45 0)
+		(at 50.8 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "da0c8beb-65f9-4a53-acab-8b2933cf5716")
-		(property "Reference" "#PWR054"
-			(at 95.25 48.26 0)
+		(uuid "91d81561-a012-485e-b49b-76b2a0174fef")
+		(property "Reference" "#PWR053"
+			(at 50.8 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1800,7 +1699,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 95.25 40.64 0)
+			(at 50.8 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1808,7 +1707,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 44.45 0)
+			(at 50.8 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1817,7 +1716,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 44.45 0)
+			(at 50.8 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1826,7 +1725,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 95.25 44.45 0)
+			(at 50.8 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,7 +1734,271 @@
 			)
 		)
 		(pin "1"
-			(uuid "51f38bd3-6a90-4629-9e54-79752b72d81b")
+			(uuid "0436d3f7-8658-4211-a27c-9dac44a572e6")
+		)
+		(instances
+			(project "robotic_hand_pcb"
+				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 88.9 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcb397c1-57f0-4567-8c82-33896d51e006")
+		(property "Reference" "#PWR055"
+			(at 88.9 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 88.9 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 88.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59222898-601c-44fc-aa0c-ef733e471a74")
+		)
+		(instances
+			(project "robotic_hand_pcb"
+				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 68.58 76.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c269cf94-8979-4625-9467-bf96eacb6c0f")
+		(property "Reference" "J15"
+			(at 69.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Photodiode"
+			(at 69.85 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 68.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c42d44ff-c248-4ab3-bfc9-4ad3c0820bc9")
+		)
+		(instances
+			(project ""
+				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cec21d0c-035b-459b-a6ed-75283cc2372a")
+		(property "Reference" "#PWR061"
+			(at 88.9 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c27ad38-a95d-4c80-a2cd-e1dadc954f74")
+		)
+		(instances
+			(project "robotic_hand_pcb"
+				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 69.85 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d464fe09-3bff-4502-9119-769721c8e05b")
+		(property "Reference" "#PWR054"
+			(at 69.85 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 69.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 69.85 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1e872fd-65f0-418b-9f41-5afc0c329d7c")
 		)
 		(instances
 			(project "robotic_hand_pcb"
@@ -1847,52 +2010,16 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 76.2 53.34 0)
+		(lib_id "power:+5V")
+		(at 124.46 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e15ce61d-49c7-4e79-9294-eeea5371aa19")
-		(property "Reference" "D1"
-			(at 79.248 44.1646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 82.55 46.736 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 77.47 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 78.74 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 76.2 53.34 0)
+		(uuid "d852cd89-f3b0-46b3-9d8b-2397acb572a6")
+		(property "Reference" "#PWR057"
+			(at 124.46 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,22 +2027,115 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "d74aaff7-4d40-4370-b762-7da8ef76fd76")
+		(property "Value" "+5V"
+			(at 124.46 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "3"
-			(uuid "d0e884c1-5436-4704-b735-b308c5b5a2be")
+		(property "Footprint" ""
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "270f81b2-f3cf-410e-a30c-722c26f9bbe0")
+		(property "Datasheet" ""
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "67f25f52-6531-4f94-bdbd-b6e8cb56dd2e")
+			(uuid "fbbd0846-34b3-4e7d-ab8a-7c73a39ce156")
 		)
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
-					(reference "D1")
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4132523-d6e4-400c-8c5b-8ad97a57fde5")
+		(property "Reference" "#PWR060"
+			(at 69.85 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3014600c-95c1-4f4a-8590-2f8a7a061277")
+		)
+		(instances
+			(project "robotic_hand_pcb"
+				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
