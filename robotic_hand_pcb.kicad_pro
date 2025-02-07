@@ -692,8 +692,12 @@
       "robotic_hand_pcb_leds"
     ],
     [
+      "6d226a0a-d50a-47f5-bbb2-5bf13499a56e",
+      "robotic_hand_pcb_analog"
+    ],
+    [
       "519c2916-f1e5-4bf2-b7d2-8398d436960c",
-      "robotic_hand_pcb_servos"
+      "robotic_hand_pcb_unipolar_steppers"
     ]
   ],
   "text_variables": {}

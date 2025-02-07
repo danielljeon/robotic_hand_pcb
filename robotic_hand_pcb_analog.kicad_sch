@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4dfc4973-27da-4e62-a0fc-22fee2dbf86f")
+	(paper "A4")
+	(title_block
+		(title "Robotic Hand PCB")
+		(rev "0.1.0")
+		(company "Daniel Jeon")
+	)
+	(lib_symbols)
+)
