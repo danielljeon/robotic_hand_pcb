@@ -10,7 +10,7 @@
 		(company "Daniel Jeon")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x03_Pin"
+		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -24,8 +24,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -50,7 +50,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
+			(property "Description" "Generic connector, single row, 01x04, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -85,7 +85,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_Pin_1_1"
+			(symbol "Conn_01x04_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 0.8636 -2.54)
@@ -120,6 +132,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(rectangle
@@ -209,6 +232,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 		)
 	)
@@ -234,6 +275,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 43.18) (xy 63.5 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b39d2d4a-4cb0-4695-9879-b578ecdcd902")
+	)
+	(wire
+		(pts
 			(xy 38.1 35.56) (xy 63.5 35.56)
 		)
 		(stroke
@@ -244,7 +295,7 @@
 	)
 	(text "WIP - VL53L4CD"
 		(exclude_from_sim no)
-		(at 52.832 45.212 0)
+		(at 52.578 59.182 0)
 		(effects
 			(font
 				(size 3.175 3.175)
@@ -254,6 +305,17 @@
 			)
 		)
 		(uuid "b0d884c7-3534-433f-9ecb-0415e0131a68")
+	)
+	(hierarchical_label "TOF_XSHUT"
+		(shape input)
+		(at 38.1 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2d487ce-fbb7-4477-adfd-8c4bbbd482d0")
 	)
 	(hierarchical_label "I2C_SCL"
 		(shape input)
@@ -289,7 +351,7 @@
 		(uuid "eafd7cb0-74d3-455d-a2a1-32d5e0d1442a")
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
+		(lib_id "Connector:Conn_01x04_Pin")
 		(at 68.58 38.1 0)
 		(mirror y)
 		(unit 1)
@@ -298,9 +360,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5987b70c-23cb-48e9-b122-b7538aa942eb")
-		(property "Reference" "J13"
-			(at 69.85 36.8299 0)
+		(uuid "9c31fbbb-0da0-468d-8ff6-195a6d3df7d7")
+		(property "Reference" "J5"
+			(at 69.85 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -308,8 +370,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "VL53L4CD"
-			(at 69.85 39.3699 0)
+		(property "Value" "Conn_01x04_Pin"
+			(at 69.85 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -335,7 +397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" "Generic connector, single row, 01x04, script generated"
 			(at 68.58 38.1 0)
 			(effects
 				(font
@@ -345,18 +407,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "e59e0f99-6886-4170-9937-cf18ee3e82a4")
+			(uuid "9403ae13-f2e0-432a-9cf8-33fb9cb852fd")
 		)
-		(pin "3"
-			(uuid "a7bc0eff-a5db-4462-bdb9-aff4b685a563")
+		(pin "4"
+			(uuid "7c43a834-59bc-4c21-8a9f-1cafbd1733d5")
 		)
 		(pin "2"
-			(uuid "c4a4a848-32ad-4a11-bfea-151896291f06")
+			(uuid "506182be-0749-429e-8819-c9db70f632f0")
+		)
+		(pin "3"
+			(uuid "bcc30290-b284-42a0-b727-128ef2a0b89c")
 		)
 		(instances
-			(project "robotic_hand_pcb"
+			(project ""
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/d34df37d-94b6-45ab-99ed-47ba0f34ea70"
-					(reference "J13")
+					(reference "J5")
 					(unit 1)
 				)
 			)
