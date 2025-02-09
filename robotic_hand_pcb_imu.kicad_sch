@@ -3873,7 +3873,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5562157-9769-4c9f-9c31-79a2d8eeee17")
-		(property "Reference" "JP1"
+		(property "Reference" "JP2"
 			(at 157.48 60.96 0)
 			(effects
 				(font
@@ -3925,7 +3925,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/f209e5e9-1726-454a-82e1-5fd492ecf1c3"
-					(reference "JP1")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
