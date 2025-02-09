@@ -1529,7 +1529,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3541a454-0dff-4c60-b5d2-be3e2a232fef")
 		(property "Reference" "U6"
