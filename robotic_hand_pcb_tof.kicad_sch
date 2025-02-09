@@ -366,7 +366,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -384,7 +384,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1526,10 +1526,10 @@
 		(lib_id "adafruit:adafruit_5396_vl53l4cd")
 		(at 48.26 73.66 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3541a454-0dff-4c60-b5d2-be3e2a232fef")
 		(property "Reference" "U6"
@@ -1623,7 +1623,7 @@
 		(pin "2"
 			(uuid "4e350c69-e597-4e61-955b-eb04bccd0530")
 		)
-		(pin "7"
+		(pin "5"
 			(uuid "34c841d5-d714-4f5c-bf0a-d6d35613f1af")
 		)
 		(pin "3"
@@ -1632,7 +1632,7 @@
 		(pin "4"
 			(uuid "905388db-0bd9-47c9-9918-01766f9535f0")
 		)
-		(pin "8"
+		(pin "6"
 			(uuid "5037e4cd-b790-4dfd-8eee-bc579522d765")
 		)
 		(pin "1"
