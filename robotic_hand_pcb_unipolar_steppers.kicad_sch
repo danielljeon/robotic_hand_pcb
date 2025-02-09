@@ -1144,158 +1144,158 @@
 		)
 	)
 	(junction
-		(at 184.15 78.74)
+		(at 121.92 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06a47844-8ce2-4d0e-88ae-1df9c73b922d")
 	)
 	(junction
-		(at 107.95 78.74)
+		(at 45.72 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f8968b7-42bf-4268-9401-d55157a75f5b")
 	)
 	(junction
-		(at 107.95 129.54)
+		(at 45.72 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80b30c79-a4de-4ef3-aff1-713277752764")
 	)
 	(junction
-		(at 184.15 27.94)
+		(at 121.92 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b884bc43-bc25-471c-ac9f-c3fc74a108dd")
 	)
 	(junction
-		(at 107.95 27.94)
+		(at 45.72 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd0eb82e-e9bc-421a-9c03-cef74f59ea8c")
 	)
 	(no_connect
-		(at 181.61 60.96)
+		(at 119.38 54.61)
 		(uuid "103fac6e-9add-48a2-9c6a-0e948cf1e818")
 	)
 	(no_connect
-		(at 105.41 58.42)
+		(at 43.18 52.07)
 		(uuid "203928aa-e564-49bc-843c-996d15840743")
 	)
 	(no_connect
-		(at 105.41 60.96)
+		(at 43.18 54.61)
 		(uuid "23b449ce-6cd7-427a-a10d-8783d5cc6ebd")
 	)
 	(no_connect
-		(at 181.61 58.42)
+		(at 119.38 52.07)
 		(uuid "263fd849-7025-401f-bf96-38886c94c411")
 	)
 	(no_connect
-		(at 161.29 55.88)
+		(at 99.06 49.53)
 		(uuid "2af9cb68-a219-4b3e-985d-99ee3907a8f4")
 	)
 	(no_connect
-		(at 105.41 109.22)
+		(at 43.18 102.87)
 		(uuid "332b8725-921f-4291-be19-8e69e7694137")
 	)
 	(no_connect
-		(at 181.61 109.22)
+		(at 119.38 102.87)
 		(uuid "389b80fe-c268-4a6a-8635-6984a32627b2")
 	)
 	(no_connect
-		(at 181.61 55.88)
+		(at 119.38 49.53)
 		(uuid "44827acb-5fe3-46dd-9771-d070020881eb")
 	)
 	(no_connect
-		(at 85.09 162.56)
+		(at 22.86 156.21)
 		(uuid "463717bc-2553-44d2-a4de-4a69761fb9e6")
 	)
 	(no_connect
-		(at 85.09 60.96)
+		(at 22.86 54.61)
 		(uuid "47b416cc-28a9-4108-8db9-362d5a72ca0d")
 	)
 	(no_connect
-		(at 105.41 157.48)
+		(at 43.18 151.13)
 		(uuid "4dc92c66-b326-472a-88b9-6208ab029e3d")
 	)
 	(no_connect
-		(at 105.41 111.76)
+		(at 43.18 105.41)
 		(uuid "4e5116db-ce59-49fe-a0d6-1e9cea1efd48")
 	)
 	(no_connect
-		(at 161.29 109.22)
+		(at 99.06 102.87)
 		(uuid "5465e51a-0628-43f3-b444-906b62289a13")
 	)
 	(no_connect
-		(at 85.09 109.22)
+		(at 22.86 102.87)
 		(uuid "5a8f7ff2-0f57-4400-9fb0-f453e0c29b57")
 	)
 	(no_connect
-		(at 161.29 106.68)
+		(at 99.06 100.33)
 		(uuid "6f1b86f5-b767-43a8-9f34-7767e62f7e0a")
 	)
 	(no_connect
-		(at 85.09 160.02)
+		(at 22.86 153.67)
 		(uuid "9aab584f-d37b-484a-b21c-4d51564000eb")
 	)
 	(no_connect
-		(at 181.61 106.68)
+		(at 119.38 100.33)
 		(uuid "9abf0735-413f-4259-bc73-cdfb881c464a")
 	)
 	(no_connect
-		(at 105.41 162.56)
+		(at 43.18 156.21)
 		(uuid "a398dc77-6f14-47ec-9d96-faa1dadec343")
 	)
 	(no_connect
-		(at 85.09 157.48)
+		(at 22.86 151.13)
 		(uuid "a58018f7-809e-48fd-aa82-8dde0f709c45")
 	)
 	(no_connect
-		(at 85.09 111.76)
+		(at 22.86 105.41)
 		(uuid "afc56a01-4367-41a4-bf3f-6a26bd3ba506")
 	)
 	(no_connect
-		(at 105.41 55.88)
+		(at 43.18 49.53)
 		(uuid "b04d28b4-58bb-418c-871c-c96dc3c4d035")
 	)
 	(no_connect
-		(at 161.29 111.76)
+		(at 99.06 105.41)
 		(uuid "bc2af585-71c7-48b6-9d50-c799e6f86e53")
 	)
 	(no_connect
-		(at 181.61 111.76)
+		(at 119.38 105.41)
 		(uuid "d34faf24-7951-423c-8002-a64dc86d32b1")
 	)
 	(no_connect
-		(at 105.41 160.02)
+		(at 43.18 153.67)
 		(uuid "d61784b0-72ec-429b-bd8e-f35d83519afc")
 	)
 	(no_connect
-		(at 85.09 58.42)
+		(at 22.86 52.07)
 		(uuid "e340a4f8-7307-405d-8ca9-ead29caa5f9d")
 	)
 	(no_connect
-		(at 85.09 106.68)
+		(at 22.86 100.33)
 		(uuid "e6bff974-7050-4c0f-b602-7641f84b22c1")
 	)
 	(no_connect
-		(at 161.29 58.42)
+		(at 99.06 52.07)
 		(uuid "f044265a-506e-418b-9af4-0a50c53e4c8f")
 	)
 	(no_connect
-		(at 161.29 60.96)
+		(at 99.06 54.61)
 		(uuid "f73dfd2f-4b59-4627-b8d1-17d3f38f3b9c")
 	)
 	(no_connect
-		(at 85.09 55.88)
+		(at 22.86 49.53)
 		(uuid "f748ba05-4550-4c03-9e37-e27f0879e1f3")
 	)
 	(no_connect
-		(at 105.41 106.68)
+		(at 43.18 100.33)
 		(uuid "ff0ecf91-a3c8-4b5b-a21f-4c8872c219be")
 	)
 	(wire
 		(pts
-			(xy 127 45.72) (xy 105.41 45.72)
+			(xy 64.77 39.37) (xy 43.18 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1305,7 +1305,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 80.01) (xy 114.3 78.74)
+			(xy 52.07 73.66) (xy 52.07 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1315,7 +1315,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 53.34) (xy 85.09 53.34)
+			(xy 21.59 46.99) (xy 22.86 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1325,7 +1325,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 130.81) (xy 114.3 129.54)
+			(xy 52.07 124.46) (xy 52.07 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1335,7 +1335,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 43.18) (xy 124.46 43.18)
+			(xy 64.77 36.83) (xy 62.23 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1345,7 +1345,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 48.26) (xy 161.29 48.26)
+			(xy 97.79 41.91) (xy 99.06 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1355,7 +1355,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 129.54) (xy 114.3 129.54)
+			(xy 45.72 123.19) (xy 52.07 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1365,7 +1365,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 101.6) (xy 181.61 101.6)
+			(xy 140.97 95.25) (xy 119.38 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1375,7 +1375,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 29.21) (xy 190.5 27.94)
+			(xy 128.27 22.86) (xy 128.27 21.59)
 		)
 		(stroke
 			(width 0)
@@ -1385,7 +1385,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 43.18) (xy 200.66 43.18)
+			(xy 140.97 36.83) (xy 138.43 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1395,7 +1395,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 45.72) (xy 161.29 45.72)
+			(xy 97.79 39.37) (xy 99.06 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1405,7 +1405,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 142.24) (xy 107.95 142.24)
+			(xy 43.18 135.89) (xy 45.72 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1415,7 +1415,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 93.98) (xy 124.46 93.98)
+			(xy 64.77 87.63) (xy 62.23 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1425,7 +1425,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 104.14) (xy 105.41 104.14)
+			(xy 64.77 97.79) (xy 43.18 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1435,7 +1435,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 88.9) (xy 190.5 87.63)
+			(xy 128.27 82.55) (xy 128.27 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1445,7 +1445,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 38.1) (xy 190.5 36.83)
+			(xy 128.27 31.75) (xy 128.27 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1455,7 +1455,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 101.6) (xy 85.09 101.6)
+			(xy 21.59 95.25) (xy 22.86 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1465,7 +1465,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 27.94) (xy 190.5 27.94)
+			(xy 121.92 21.59) (xy 128.27 21.59)
 		)
 		(stroke
 			(width 0)
@@ -1475,7 +1475,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 53.34) (xy 105.41 53.34)
+			(xy 64.77 46.99) (xy 43.18 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1485,7 +1485,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 99.06) (xy 181.61 99.06)
+			(xy 140.97 92.71) (xy 119.38 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1495,7 +1495,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 96.52) (xy 161.29 96.52)
+			(xy 97.79 90.17) (xy 99.06 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1505,7 +1505,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 93.98) (xy 200.66 93.98)
+			(xy 140.97 87.63) (xy 138.43 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1515,7 +1515,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 27.94) (xy 107.95 40.64)
+			(xy 45.72 21.59) (xy 45.72 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1525,7 +1525,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 99.06) (xy 85.09 99.06)
+			(xy 21.59 92.71) (xy 22.86 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1535,7 +1535,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 118.11) (xy 171.45 116.84)
+			(xy 109.22 111.76) (xy 109.22 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1545,7 +1545,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 96.52) (xy 85.09 96.52)
+			(xy 21.59 90.17) (xy 22.86 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1555,7 +1555,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 48.26) (xy 105.41 48.26)
+			(xy 64.77 41.91) (xy 43.18 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1565,7 +1565,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 149.86) (xy 105.41 149.86)
+			(xy 64.77 143.51) (xy 43.18 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1575,7 +1575,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 26.67) (xy 184.15 27.94)
+			(xy 121.92 20.32) (xy 121.92 21.59)
 		)
 		(stroke
 			(width 0)
@@ -1585,7 +1585,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 53.34) (xy 181.61 53.34)
+			(xy 140.97 46.99) (xy 119.38 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1595,7 +1595,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 144.78) (xy 124.46 144.78)
+			(xy 64.77 138.43) (xy 62.23 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1605,7 +1605,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 152.4) (xy 105.41 152.4)
+			(xy 64.77 146.05) (xy 43.18 146.05)
 		)
 		(stroke
 			(width 0)
@@ -1615,7 +1615,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 78.74) (xy 184.15 91.44)
+			(xy 121.92 72.39) (xy 121.92 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1625,7 +1625,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 99.06) (xy 161.29 99.06)
+			(xy 97.79 92.71) (xy 99.06 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1635,7 +1635,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 40.64) (xy 107.95 40.64)
+			(xy 43.18 34.29) (xy 45.72 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1645,7 +1645,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 101.6) (xy 161.29 101.6)
+			(xy 97.79 95.25) (xy 99.06 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1655,7 +1655,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 41.91) (xy 124.46 43.18)
+			(xy 62.23 35.56) (xy 62.23 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1665,7 +1665,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 27.94) (xy 114.3 27.94)
+			(xy 45.72 21.59) (xy 52.07 21.59)
 		)
 		(stroke
 			(width 0)
@@ -1675,7 +1675,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 104.14) (xy 161.29 104.14)
+			(xy 97.79 97.79) (xy 99.06 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1685,7 +1685,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 92.71) (xy 200.66 93.98)
+			(xy 138.43 86.36) (xy 138.43 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1695,7 +1695,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 78.74) (xy 114.3 78.74)
+			(xy 45.72 72.39) (xy 52.07 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1705,7 +1705,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 40.64) (xy 184.15 40.64)
+			(xy 119.38 34.29) (xy 121.92 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1715,7 +1715,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 78.74) (xy 107.95 91.44)
+			(xy 45.72 72.39) (xy 45.72 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1725,7 +1725,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 78.74) (xy 190.5 78.74)
+			(xy 121.92 72.39) (xy 128.27 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1735,7 +1735,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 143.51) (xy 124.46 144.78)
+			(xy 62.23 137.16) (xy 62.23 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1745,7 +1745,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 53.34) (xy 161.29 53.34)
+			(xy 97.79 46.99) (xy 99.06 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1755,7 +1755,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 152.4) (xy 85.09 152.4)
+			(xy 21.59 146.05) (xy 22.86 146.05)
 		)
 		(stroke
 			(width 0)
@@ -1765,7 +1765,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 147.32) (xy 85.09 147.32)
+			(xy 21.59 140.97) (xy 22.86 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1775,7 +1775,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 118.11) (xy 95.25 116.84)
+			(xy 33.02 111.76) (xy 33.02 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1785,7 +1785,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 26.67) (xy 107.95 27.94)
+			(xy 45.72 20.32) (xy 45.72 21.59)
 		)
 		(stroke
 			(width 0)
@@ -1795,7 +1795,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 77.47) (xy 107.95 78.74)
+			(xy 45.72 71.12) (xy 45.72 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1805,7 +1805,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 45.72) (xy 181.61 45.72)
+			(xy 140.97 39.37) (xy 119.38 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1815,7 +1815,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 41.91) (xy 200.66 43.18)
+			(xy 138.43 35.56) (xy 138.43 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1825,7 +1825,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 48.26) (xy 85.09 48.26)
+			(xy 21.59 41.91) (xy 22.86 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1835,7 +1835,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 91.44) (xy 184.15 91.44)
+			(xy 119.38 85.09) (xy 121.92 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1845,7 +1845,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 67.31) (xy 171.45 66.04)
+			(xy 109.22 60.96) (xy 109.22 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1855,7 +1855,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 38.1) (xy 114.3 36.83)
+			(xy 52.07 31.75) (xy 52.07 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1865,7 +1865,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 104.14) (xy 85.09 104.14)
+			(xy 21.59 97.79) (xy 22.86 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1875,7 +1875,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 67.31) (xy 95.25 66.04)
+			(xy 33.02 60.96) (xy 33.02 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1885,7 +1885,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 50.8) (xy 85.09 50.8)
+			(xy 21.59 44.45) (xy 22.86 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1895,7 +1895,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 149.86) (xy 85.09 149.86)
+			(xy 21.59 143.51) (xy 22.86 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1905,7 +1905,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 128.27) (xy 107.95 129.54)
+			(xy 45.72 121.92) (xy 45.72 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1915,7 +1915,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 88.9) (xy 114.3 87.63)
+			(xy 52.07 82.55) (xy 52.07 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1925,7 +1925,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 147.32) (xy 105.41 147.32)
+			(xy 64.77 140.97) (xy 43.18 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1935,7 +1935,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 91.44) (xy 107.95 91.44)
+			(xy 43.18 85.09) (xy 45.72 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1945,7 +1945,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 29.21) (xy 114.3 27.94)
+			(xy 52.07 22.86) (xy 52.07 21.59)
 		)
 		(stroke
 			(width 0)
@@ -1955,7 +1955,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 50.8) (xy 161.29 50.8)
+			(xy 97.79 44.45) (xy 99.06 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1965,7 +1965,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 80.01) (xy 190.5 78.74)
+			(xy 128.27 73.66) (xy 128.27 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1975,7 +1975,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 50.8) (xy 181.61 50.8)
+			(xy 140.97 44.45) (xy 119.38 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1985,7 +1985,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 96.52) (xy 105.41 96.52)
+			(xy 64.77 90.17) (xy 43.18 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1995,7 +1995,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 99.06) (xy 105.41 99.06)
+			(xy 64.77 92.71) (xy 43.18 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2005,7 +2005,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 96.52) (xy 181.61 96.52)
+			(xy 140.97 90.17) (xy 119.38 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2015,7 +2015,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 27.94) (xy 184.15 40.64)
+			(xy 121.92 21.59) (xy 121.92 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2025,7 +2025,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 48.26) (xy 181.61 48.26)
+			(xy 140.97 41.91) (xy 119.38 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2035,7 +2035,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 92.71) (xy 124.46 93.98)
+			(xy 62.23 86.36) (xy 62.23 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2045,7 +2045,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 129.54) (xy 107.95 142.24)
+			(xy 45.72 123.19) (xy 45.72 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2055,7 +2055,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 101.6) (xy 105.41 101.6)
+			(xy 64.77 95.25) (xy 43.18 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2065,7 +2065,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 45.72) (xy 85.09 45.72)
+			(xy 21.59 39.37) (xy 22.86 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2075,7 +2075,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 154.94) (xy 105.41 154.94)
+			(xy 64.77 148.59) (xy 43.18 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2085,7 +2085,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 104.14) (xy 181.61 104.14)
+			(xy 140.97 97.79) (xy 119.38 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2095,7 +2095,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 77.47) (xy 184.15 78.74)
+			(xy 121.92 71.12) (xy 121.92 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2105,7 +2105,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 154.94) (xy 85.09 154.94)
+			(xy 21.59 148.59) (xy 22.86 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2115,7 +2115,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 168.91) (xy 95.25 167.64)
+			(xy 33.02 162.56) (xy 33.02 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2125,7 +2125,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 50.8) (xy 105.41 50.8)
+			(xy 64.77 44.45) (xy 43.18 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2135,7 +2135,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 139.7) (xy 114.3 138.43)
+			(xy 52.07 133.35) (xy 52.07 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2143,9 +2143,33 @@
 		)
 		(uuid "fe245416-d344-441d-8877-3ffef30093a9")
 	)
+	(rectangle
+		(start 12.7 12.7)
+		(end 162.56 168.91)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d3f5d277-6231-4daf-8166-1cc3e5b28c7f)
+	)
+	(text "Unipoloar Stepper Motor Drivers"
+		(exclude_from_sim no)
+		(at 13.97 166.878 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "1ce49262-ca79-490b-bd7d-d076e1c43dc4")
+	)
 	(hierarchical_label "M4_4"
 		(shape input)
-		(at 160.02 104.14 180)
+		(at 97.79 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2156,7 +2180,7 @@
 	)
 	(hierarchical_label "M3_3"
 		(shape input)
-		(at 83.82 101.6 180)
+		(at 21.59 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2167,7 +2191,7 @@
 	)
 	(hierarchical_label "M3_1"
 		(shape input)
-		(at 83.82 96.52 180)
+		(at 21.59 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2178,7 +2202,7 @@
 	)
 	(hierarchical_label "M2_3"
 		(shape input)
-		(at 160.02 50.8 180)
+		(at 97.79 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2189,7 +2213,7 @@
 	)
 	(hierarchical_label "M1_1"
 		(shape input)
-		(at 83.82 45.72 180)
+		(at 21.59 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2200,7 +2224,7 @@
 	)
 	(hierarchical_label "M1_3"
 		(shape input)
-		(at 83.82 50.8 180)
+		(at 21.59 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2211,7 +2235,7 @@
 	)
 	(hierarchical_label "M5_1"
 		(shape input)
-		(at 83.82 147.32 180)
+		(at 21.59 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2222,7 +2246,7 @@
 	)
 	(hierarchical_label "M5_3"
 		(shape input)
-		(at 83.82 152.4 180)
+		(at 21.59 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2233,7 +2257,7 @@
 	)
 	(hierarchical_label "M4_2"
 		(shape input)
-		(at 160.02 99.06 180)
+		(at 97.79 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2244,7 +2268,7 @@
 	)
 	(hierarchical_label "M3_2"
 		(shape input)
-		(at 83.82 99.06 180)
+		(at 21.59 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2255,7 +2279,7 @@
 	)
 	(hierarchical_label "M4_1"
 		(shape input)
-		(at 160.02 96.52 180)
+		(at 97.79 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2266,7 +2290,7 @@
 	)
 	(hierarchical_label "M1_4"
 		(shape input)
-		(at 83.82 53.34 180)
+		(at 21.59 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2277,7 +2301,7 @@
 	)
 	(hierarchical_label "M2_1"
 		(shape input)
-		(at 160.02 45.72 180)
+		(at 97.79 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2288,7 +2312,7 @@
 	)
 	(hierarchical_label "M3_4"
 		(shape input)
-		(at 83.82 104.14 180)
+		(at 21.59 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2299,7 +2323,7 @@
 	)
 	(hierarchical_label "M2_2"
 		(shape input)
-		(at 160.02 48.26 180)
+		(at 97.79 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2310,7 +2334,7 @@
 	)
 	(hierarchical_label "M5_4"
 		(shape input)
-		(at 83.82 154.94 180)
+		(at 21.59 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2321,7 +2345,7 @@
 	)
 	(hierarchical_label "M2_4"
 		(shape input)
-		(at 160.02 53.34 180)
+		(at 97.79 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2332,7 +2356,7 @@
 	)
 	(hierarchical_label "M5_2"
 		(shape input)
-		(at 83.82 149.86 180)
+		(at 21.59 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2343,7 +2367,7 @@
 	)
 	(hierarchical_label "M1_2"
 		(shape input)
-		(at 83.82 48.26 180)
+		(at 21.59 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2354,7 +2378,7 @@
 	)
 	(hierarchical_label "M4_3"
 		(shape input)
-		(at 160.02 101.6 180)
+		(at 97.79 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2365,7 +2389,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 208.28 99.06 0)
+		(at 146.05 92.71 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2373,8 +2397,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0041e880-9450-4aec-ac87-6fee8cbe58c9")
-		(property "Reference" "J11"
-			(at 208.788 94.234 0)
+		(property "Reference" "J21"
+			(at 146.558 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2383,7 +2407,7 @@
 			)
 		)
 		(property "Value" "JST 1x5 Male"
-			(at 208.788 96.774 0)
+			(at 146.558 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2392,7 +2416,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 99.06 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2401,7 +2425,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 99.06 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2410,7 +2434,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 208.28 99.06 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2436,7 +2460,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "J11")
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -2444,7 +2468,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 118.11 0)
+		(at 33.02 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2452,8 +2476,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0720aa12-35bd-4cb8-bbf3-575eccfc106f")
-		(property "Reference" "#PWR071"
-			(at 95.25 124.46 0)
+		(property "Reference" "#PWR0120"
+			(at 33.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2462,7 +2486,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 123.19 0)
+			(at 33.02 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2471,7 +2495,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 118.11 0)
+			(at 33.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2480,7 +2504,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 118.11 0)
+			(at 33.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2489,7 +2513,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 118.11 0)
+			(at 33.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,7 +2527,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR071")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -2511,7 +2535,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_Array:ULN2003A")
-		(at 171.45 101.6 0)
+		(at 109.22 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2519,8 +2543,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e247214-ac93-459d-be7b-2e86d1d6585b")
-		(property "Reference" "U9"
-			(at 171.45 83.82 0)
+		(property "Reference" "U17"
+			(at 109.22 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2528,7 +2552,7 @@
 			)
 		)
 		(property "Value" "ULN2003ADR"
-			(at 171.45 86.36 0)
+			(at 109.22 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,7 +2560,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 172.72 115.57 0)
+			(at 110.49 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,7 +2570,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2003a.pdf"
-			(at 173.99 106.68 0)
+			(at 111.76 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2555,7 +2579,7 @@
 			)
 		)
 		(property "Description" "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"
-			(at 171.45 101.6 0)
+			(at 109.22 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2638,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "U9")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -2622,15 +2646,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 124.46 92.71 0)
+		(at 62.23 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1583e32a-bcd1-42b1-82c2-ec4be297ec52")
-		(property "Reference" "#PWR069"
-			(at 124.46 96.52 0)
+		(property "Reference" "#PWR0118"
+			(at 62.23 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,7 +2663,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 124.46 88.9 0)
+			(at 62.23 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,7 +2671,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 92.71 0)
+			(at 62.23 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2656,7 +2680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 92.71 0)
+			(at 62.23 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2665,7 +2689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 124.46 92.71 0)
+			(at 62.23 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +2703,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR069")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -2687,15 +2711,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 190.5 33.02 0)
+		(at 128.27 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "25801daa-6b86-4cf4-95a8-a148fac89e69")
-		(property "Reference" "C26"
-			(at 193.04 31.75 0)
+		(property "Reference" "C39"
+			(at 130.81 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2704,7 +2728,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 193.04 34.29 0)
+			(at 130.81 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,7 +2737,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 191.4652 36.83 0)
+			(at 129.2352 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,7 +2746,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 33.02 0)
+			(at 128.27 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,7 +2755,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 190.5 33.02 0)
+			(at 128.27 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,7 +2772,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "C26")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -2756,7 +2780,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 139.7 0)
+		(at 52.07 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2764,8 +2788,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28645f96-b236-4404-8f3c-bbbbf3f88865")
-		(property "Reference" "#PWR074"
-			(at 114.3 146.05 0)
+		(property "Reference" "#PWR0123"
+			(at 52.07 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2774,7 +2798,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 144.78 0)
+			(at 52.07 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,7 +2807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 139.7 0)
+			(at 52.07 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2792,7 +2816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 139.7 0)
+			(at 52.07 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2801,7 +2825,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 139.7 0)
+			(at 52.07 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2815,7 +2839,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR074")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -2823,15 +2847,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 200.66 92.71 0)
+		(at 138.43 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4f3ae5fe-e647-4b95-a561-5a695fcd12da")
-		(property "Reference" "#PWR070"
-			(at 200.66 96.52 0)
+		(property "Reference" "#PWR0119"
+			(at 138.43 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2840,7 +2864,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 200.66 88.9 0)
+			(at 138.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2848,7 +2872,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 92.71 0)
+			(at 138.43 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,7 +2881,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 92.71 0)
+			(at 138.43 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,7 +2890,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 200.66 92.71 0)
+			(at 138.43 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2880,7 +2904,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR070")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -2888,7 +2912,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 132.08 48.26 0)
+		(at 69.85 41.91 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2896,8 +2920,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5282d786-3734-4892-a3aa-88fea04b3dc9")
-		(property "Reference" "J8"
-			(at 132.588 43.434 0)
+		(property "Reference" "J18"
+			(at 70.358 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2906,7 +2930,7 @@
 			)
 		)
 		(property "Value" "JST 1x5 Male"
-			(at 132.588 45.974 0)
+			(at 70.358 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2915,7 +2939,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 48.26 0)
+			(at 69.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2924,7 +2948,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 48.26 0)
+			(at 69.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2933,7 +2957,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 132.08 48.26 0)
+			(at 69.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,7 +2983,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "J8")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -2967,15 +2991,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 184.15 77.47 0)
+		(at 121.92 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "574facc0-5c80-4e0e-86b1-7c904c053633")
-		(property "Reference" "#PWR066"
-			(at 184.15 81.28 0)
+		(property "Reference" "#PWR0115"
+			(at 121.92 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2984,7 +3008,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 184.15 73.66 0)
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2992,7 +3016,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 77.47 0)
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3001,7 +3025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 77.47 0)
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3010,7 +3034,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 184.15 77.47 0)
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,7 +3048,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR066")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -3032,15 +3056,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 114.3 83.82 0)
+		(at 52.07 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "60ae5690-c128-479a-87d5-34ca0b0d16f5")
-		(property "Reference" "C27"
-			(at 116.84 82.55 0)
+		(property "Reference" "C40"
+			(at 54.61 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3049,7 +3073,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 116.84 85.09 0)
+			(at 54.61 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3058,7 +3082,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 115.2652 87.63 0)
+			(at 53.0352 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3067,7 +3091,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 83.82 0)
+			(at 52.07 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3076,7 +3100,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 114.3 83.82 0)
+			(at 52.07 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,7 +3117,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "C27")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -3101,7 +3125,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 67.31 0)
+		(at 109.22 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3109,8 +3133,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70450461-00e6-4017-8c68-b2704466ed45")
-		(property "Reference" "#PWR064"
-			(at 171.45 73.66 0)
+		(property "Reference" "#PWR0113"
+			(at 109.22 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3119,7 +3143,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 72.39 0)
+			(at 109.22 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3128,7 +3152,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 67.31 0)
+			(at 109.22 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3137,7 +3161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 67.31 0)
+			(at 109.22 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3146,7 +3170,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 67.31 0)
+			(at 109.22 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3160,7 +3184,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR064")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -3168,7 +3192,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_Array:ULN2003A")
-		(at 95.25 50.8 0)
+		(at 33.02 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3176,8 +3200,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72e6ff44-6678-4d3f-b351-43dd520ac07e")
-		(property "Reference" "U6"
-			(at 95.25 33.02 0)
+		(property "Reference" "U14"
+			(at 33.02 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3209,7 @@
 			)
 		)
 		(property "Value" "ULN2003ADR"
-			(at 95.25 35.56 0)
+			(at 33.02 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3193,7 +3217,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 96.52 64.77 0)
+			(at 34.29 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3203,7 +3227,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2003a.pdf"
-			(at 97.79 55.88 0)
+			(at 35.56 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3212,7 +3236,7 @@
 			)
 		)
 		(property "Description" "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"
-			(at 95.25 50.8 0)
+			(at 33.02 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3271,7 +3295,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "U6")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -3279,7 +3303,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_Array:ULN2003A")
-		(at 95.25 152.4 0)
+		(at 33.02 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3287,8 +3311,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73e08d00-6836-4d6d-9412-f0f55f397610")
-		(property "Reference" "U10"
-			(at 95.25 134.62 0)
+		(property "Reference" "U18"
+			(at 33.02 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3296,7 +3320,7 @@
 			)
 		)
 		(property "Value" "ULN2003ADR"
-			(at 95.25 137.16 0)
+			(at 33.02 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3304,7 +3328,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 96.52 166.37 0)
+			(at 34.29 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3314,7 +3338,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2003a.pdf"
-			(at 97.79 157.48 0)
+			(at 35.56 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3323,7 +3347,7 @@
 			)
 		)
 		(property "Description" "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"
-			(at 95.25 152.4 0)
+			(at 33.02 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3382,7 +3406,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "U10")
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -3390,7 +3414,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 38.1 0)
+		(at 52.07 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3398,8 +3422,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d6f61b4-2ceb-4b1c-bde8-8e9183261fc5")
-		(property "Reference" "#PWR059"
-			(at 114.3 44.45 0)
+		(property "Reference" "#PWR0108"
+			(at 52.07 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3408,7 +3432,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 43.18 0)
+			(at 52.07 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3417,7 +3441,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 38.1 0)
+			(at 52.07 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,7 +3450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 38.1 0)
+			(at 52.07 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3435,7 +3459,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 38.1 0)
+			(at 52.07 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +3473,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR059")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -3457,15 +3481,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 124.46 143.51 0)
+		(at 62.23 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7eeeb909-34c9-4d17-a33c-203908dda1a6")
-		(property "Reference" "#PWR075"
-			(at 124.46 147.32 0)
+		(property "Reference" "#PWR0124"
+			(at 62.23 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3474,7 +3498,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 124.46 139.7 0)
+			(at 62.23 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +3506,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 143.51 0)
+			(at 62.23 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3491,7 +3515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 143.51 0)
+			(at 62.23 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3500,7 +3524,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 124.46 143.51 0)
+			(at 62.23 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3514,7 +3538,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR075")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -3522,7 +3546,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_Array:ULN2003A")
-		(at 95.25 101.6 0)
+		(at 33.02 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3530,8 +3554,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80ef3f59-5107-4e01-b2bb-49c954458ceb")
-		(property "Reference" "U8"
-			(at 95.25 83.82 0)
+		(property "Reference" "U16"
+			(at 33.02 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3539,7 +3563,7 @@
 			)
 		)
 		(property "Value" "ULN2003ADR"
-			(at 95.25 86.36 0)
+			(at 33.02 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,7 +3571,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 96.52 115.57 0)
+			(at 34.29 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3557,7 +3581,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2003a.pdf"
-			(at 97.79 106.68 0)
+			(at 35.56 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3566,7 +3590,7 @@
 			)
 		)
 		(property "Description" "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"
-			(at 95.25 101.6 0)
+			(at 33.02 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,7 +3649,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "U8")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -3633,7 +3657,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 67.31 0)
+		(at 33.02 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3641,8 +3665,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c9d4b0f-00f3-4abf-aaaa-3d2ba144ad0b")
-		(property "Reference" "#PWR063"
-			(at 95.25 73.66 0)
+		(property "Reference" "#PWR0112"
+			(at 33.02 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3651,7 +3675,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 72.39 0)
+			(at 33.02 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3660,7 +3684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 67.31 0)
+			(at 33.02 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3669,7 +3693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 67.31 0)
+			(at 33.02 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3678,7 +3702,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 67.31 0)
+			(at 33.02 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3692,7 +3716,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR063")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -3700,15 +3724,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 107.95 128.27 0)
+		(at 45.72 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8dd836bc-e14d-42df-af18-e956dac42290")
-		(property "Reference" "#PWR073"
-			(at 107.95 132.08 0)
+		(property "Reference" "#PWR0122"
+			(at 45.72 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3717,7 +3741,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 107.95 124.46 0)
+			(at 45.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3725,7 +3749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 128.27 0)
+			(at 45.72 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3734,7 +3758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 128.27 0)
+			(at 45.72 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3743,7 +3767,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 107.95 128.27 0)
+			(at 45.72 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3757,7 +3781,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR073")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -3765,15 +3789,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 107.95 77.47 0)
+		(at 45.72 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8e127f77-ed18-4c83-ac73-58de13597d93")
-		(property "Reference" "#PWR065"
-			(at 107.95 81.28 0)
+		(property "Reference" "#PWR0114"
+			(at 45.72 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3782,7 +3806,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 107.95 73.66 0)
+			(at 45.72 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3790,7 +3814,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 77.47 0)
+			(at 45.72 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3799,7 +3823,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 77.47 0)
+			(at 45.72 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3808,7 +3832,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 107.95 77.47 0)
+			(at 45.72 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,7 +3846,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR065")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -3830,7 +3854,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 38.1 0)
+		(at 128.27 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3838,8 +3862,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92a1d66b-8c5c-41ed-85b0-dbd93a55c4ae")
-		(property "Reference" "#PWR060"
-			(at 190.5 44.45 0)
+		(property "Reference" "#PWR0109"
+			(at 128.27 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,7 +3872,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 43.18 0)
+			(at 128.27 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,7 +3881,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 38.1 0)
+			(at 128.27 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,7 +3890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 38.1 0)
+			(at 128.27 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3875,7 +3899,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 38.1 0)
+			(at 128.27 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +3913,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR060")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -3897,7 +3921,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 118.11 0)
+		(at 109.22 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3905,8 +3929,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "949c3efe-42b4-44c3-ac17-6d0a95760efd")
-		(property "Reference" "#PWR072"
-			(at 171.45 124.46 0)
+		(property "Reference" "#PWR0121"
+			(at 109.22 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +3939,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 123.19 0)
+			(at 109.22 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,7 +3948,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 118.11 0)
+			(at 109.22 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3933,7 +3957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 118.11 0)
+			(at 109.22 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3942,7 +3966,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 118.11 0)
+			(at 109.22 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3956,7 +3980,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR072")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -3964,15 +3988,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 184.15 26.67 0)
+		(at 121.92 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a191c6d5-f152-43c6-875b-faedd82b5aa6")
-		(property "Reference" "#PWR058"
-			(at 184.15 30.48 0)
+		(property "Reference" "#PWR0107"
+			(at 121.92 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3981,7 +4005,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 184.15 22.86 0)
+			(at 121.92 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,7 +4013,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 26.67 0)
+			(at 121.92 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3998,7 +4022,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 26.67 0)
+			(at 121.92 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4007,7 +4031,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 184.15 26.67 0)
+			(at 121.92 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4021,7 +4045,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR058")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -4029,15 +4053,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 114.3 134.62 0)
+		(at 52.07 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a38da801-4179-49f3-8c3a-084941419c24")
-		(property "Reference" "C29"
-			(at 116.84 133.35 0)
+		(property "Reference" "C42"
+			(at 54.61 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4046,7 +4070,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 116.84 135.89 0)
+			(at 54.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4055,7 +4079,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 115.2652 138.43 0)
+			(at 53.0352 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4064,7 +4088,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 134.62 0)
+			(at 52.07 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4073,7 +4097,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 114.3 134.62 0)
+			(at 52.07 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4090,7 +4114,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "C29")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -4098,7 +4122,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 88.9 0)
+		(at 128.27 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4106,8 +4130,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8927ff2-644c-4b26-a62f-dec238fac9eb")
-		(property "Reference" "#PWR068"
-			(at 190.5 95.25 0)
+		(property "Reference" "#PWR0117"
+			(at 128.27 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4116,7 +4140,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 93.98 0)
+			(at 128.27 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4125,7 +4149,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 88.9 0)
+			(at 128.27 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4134,7 +4158,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 88.9 0)
+			(at 128.27 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4143,7 +4167,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 88.9 0)
+			(at 128.27 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,7 +4181,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR068")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -4165,15 +4189,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 190.5 83.82 0)
+		(at 128.27 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b105e872-1037-4f52-8be1-ee5a836885e4")
-		(property "Reference" "C28"
-			(at 193.04 82.55 0)
+		(property "Reference" "C41"
+			(at 130.81 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4182,7 +4206,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 193.04 85.09 0)
+			(at 130.81 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4191,7 +4215,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 191.4652 87.63 0)
+			(at 129.2352 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4200,7 +4224,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 83.82 0)
+			(at 128.27 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4209,7 +4233,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 190.5 83.82 0)
+			(at 128.27 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4226,7 +4250,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "C28")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -4234,15 +4258,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 200.66 41.91 0)
+		(at 138.43 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b4e6ab31-2533-4a6e-bbe8-4f68aa7e5c48")
-		(property "Reference" "#PWR062"
-			(at 200.66 45.72 0)
+		(property "Reference" "#PWR0111"
+			(at 138.43 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,7 +4275,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 200.66 38.1 0)
+			(at 138.43 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4259,7 +4283,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 41.91 0)
+			(at 138.43 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4268,7 +4292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 41.91 0)
+			(at 138.43 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4277,7 +4301,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 200.66 41.91 0)
+			(at 138.43 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,7 +4315,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR062")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -4299,7 +4323,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 132.08 149.86 0)
+		(at 69.85 143.51 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4307,8 +4331,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c237ffd9-09f1-47fb-89df-68a32a5029c9")
-		(property "Reference" "J12"
-			(at 132.588 145.034 0)
+		(property "Reference" "J22"
+			(at 70.358 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +4341,7 @@
 			)
 		)
 		(property "Value" "JST 1x5 Male"
-			(at 132.588 147.574 0)
+			(at 70.358 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4326,7 +4350,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 149.86 0)
+			(at 69.85 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4335,7 +4359,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 149.86 0)
+			(at 69.85 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4344,7 +4368,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 132.08 149.86 0)
+			(at 69.85 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,7 +4394,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "J12")
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -4378,15 +4402,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 124.46 41.91 0)
+		(at 62.23 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c87343c2-77b1-41ca-a6d3-642d177be40c")
-		(property "Reference" "#PWR061"
-			(at 124.46 45.72 0)
+		(property "Reference" "#PWR0110"
+			(at 62.23 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4395,7 +4419,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 124.46 38.1 0)
+			(at 62.23 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4403,7 +4427,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 41.91 0)
+			(at 62.23 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,7 +4436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 41.91 0)
+			(at 62.23 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,7 +4445,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 124.46 41.91 0)
+			(at 62.23 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,7 +4459,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR061")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -4443,7 +4467,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 88.9 0)
+		(at 52.07 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4451,8 +4475,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cda3edda-345a-4cfe-a2c3-aa9ebc49e6da")
-		(property "Reference" "#PWR067"
-			(at 114.3 95.25 0)
+		(property "Reference" "#PWR0116"
+			(at 52.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4461,7 +4485,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 93.98 0)
+			(at 52.07 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4470,7 +4494,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 88.9 0)
+			(at 52.07 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4479,7 +4503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 88.9 0)
+			(at 52.07 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4488,7 +4512,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 88.9 0)
+			(at 52.07 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4502,7 +4526,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR067")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -4510,7 +4534,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 132.08 99.06 0)
+		(at 69.85 92.71 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4518,8 +4542,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1e12ce9-26ef-4933-ab74-6cab04745d9b")
-		(property "Reference" "J10"
-			(at 132.588 94.234 0)
+		(property "Reference" "J20"
+			(at 70.358 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4528,7 +4552,7 @@
 			)
 		)
 		(property "Value" "JST 1x5 Male"
-			(at 132.588 96.774 0)
+			(at 70.358 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4537,7 +4561,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 99.06 0)
+			(at 69.85 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4546,7 +4570,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 99.06 0)
+			(at 69.85 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4555,7 +4579,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 132.08 99.06 0)
+			(at 69.85 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4581,7 +4605,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "J10")
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -4589,7 +4613,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 168.91 0)
+		(at 33.02 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4597,8 +4621,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfe6cef6-6ca1-46b4-b118-fd98f9ef0a67")
-		(property "Reference" "#PWR076"
-			(at 95.25 175.26 0)
+		(property "Reference" "#PWR0125"
+			(at 33.02 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4607,7 +4631,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 173.99 0)
+			(at 33.02 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,7 +4640,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 168.91 0)
+			(at 33.02 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,7 +4649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 168.91 0)
+			(at 33.02 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4634,7 +4658,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 168.91 0)
+			(at 33.02 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +4672,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR076")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -4656,15 +4680,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 114.3 33.02 0)
+		(at 52.07 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f1f8c1de-4470-44e6-adc2-9db4432831a1")
-		(property "Reference" "C25"
-			(at 116.84 31.75 0)
+		(property "Reference" "C38"
+			(at 54.61 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4673,7 +4697,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 116.84 34.29 0)
+			(at 54.61 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4682,7 +4706,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 115.2652 36.83 0)
+			(at 53.0352 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,7 +4715,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 33.02 0)
+			(at 52.07 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4700,7 +4724,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 114.3 33.02 0)
+			(at 52.07 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4717,7 +4741,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "C25")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -4725,7 +4749,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 208.28 48.26 0)
+		(at 146.05 41.91 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4733,8 +4757,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f530362c-0f9a-4522-af01-206681396860")
-		(property "Reference" "J9"
-			(at 208.788 43.434 0)
+		(property "Reference" "J19"
+			(at 146.558 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4743,7 +4767,7 @@
 			)
 		)
 		(property "Value" "JST 1x5 Male"
-			(at 208.788 45.974 0)
+			(at 146.558 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4752,7 +4776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 48.26 0)
+			(at 146.05 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,7 +4785,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 48.26 0)
+			(at 146.05 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4770,7 +4794,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 208.28 48.26 0)
+			(at 146.05 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4796,7 +4820,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "J9")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -4804,7 +4828,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_Array:ULN2003A")
-		(at 171.45 50.8 0)
+		(at 109.22 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4812,8 +4836,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f60cd363-55cc-4475-bc03-ebd06650326c")
-		(property "Reference" "U7"
-			(at 171.45 33.02 0)
+		(property "Reference" "U15"
+			(at 109.22 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4821,7 +4845,7 @@
 			)
 		)
 		(property "Value" "ULN2003ADR"
-			(at 171.45 35.56 0)
+			(at 109.22 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4829,7 +4853,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 172.72 64.77 0)
+			(at 110.49 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4839,7 +4863,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2003a.pdf"
-			(at 173.99 55.88 0)
+			(at 111.76 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4848,7 +4872,7 @@
 			)
 		)
 		(property "Description" "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"
-			(at 171.45 50.8 0)
+			(at 109.22 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4907,7 +4931,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "U7")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -4915,15 +4939,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 107.95 26.67 0)
+		(at 45.72 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "fc18d81e-5e62-4a21-ac18-37916ac6163a")
-		(property "Reference" "#PWR057"
-			(at 107.95 30.48 0)
+		(property "Reference" "#PWR0106"
+			(at 45.72 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4932,7 +4956,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 107.95 22.86 0)
+			(at 45.72 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4940,7 +4964,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 26.67 0)
+			(at 45.72 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4949,7 +4973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 26.67 0)
+			(at 45.72 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4958,7 +4982,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 107.95 26.67 0)
+			(at 45.72 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4972,7 +4996,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR057")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
