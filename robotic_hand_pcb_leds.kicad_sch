@@ -10,207 +10,6 @@
 		(company "Daniel Jeon")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x03_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "LED:WS2812B"
 			(pin_names
 				(offset 0.254)
@@ -682,6 +481,10 @@
 			)
 		)
 	)
+	(no_connect
+		(at 115.57 39.37)
+		(uuid "a8e80459-b299-4c14-8826-fd500ff787d8")
+	)
 	(wire
 		(pts
 			(xy 81.28 39.37) (xy 77.47 39.37)
@@ -691,26 +494,6 @@
 			(type default)
 		)
 		(uuid "11aad295-53ff-4028-9d44-9780e06a3390")
-	)
-	(wire
-		(pts
-			(xy 115.57 39.37) (xy 127 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1753ba56-c6aa-4f2a-90f3-e1078abb0f23")
-	)
-	(wire
-		(pts
-			(xy 125.73 44.45) (xy 125.73 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "214e72cf-4584-4bb8-aa33-36e6eb2e6ac9")
 	)
 	(wire
 		(pts
@@ -744,16 +527,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 44.45) (xy 125.73 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ddaa673-ce3b-4d3c-9cbd-d5a22c3c83f1")
-	)
-	(wire
-		(pts
 			(xy 69.85 30.48) (xy 69.85 31.75)
 		)
 		(stroke
@@ -771,16 +544,6 @@
 			(type default)
 		)
 		(uuid "8fb17d3b-1b1e-47bb-88f2-3055d8ff469b")
-	)
-	(wire
-		(pts
-			(xy 124.46 30.48) (xy 124.46 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94627016-32bb-4193-9683-87524ed25b2b")
 	)
 	(wire
 		(pts
@@ -842,16 +605,6 @@
 		)
 		(uuid "e5f6784a-3fdd-4814-a09f-88d8c4b11208")
 	)
-	(wire
-		(pts
-			(xy 124.46 41.91) (xy 127 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9f3680b-3132-488a-a768-7652cb6eacf4")
-	)
 	(rectangle
 		(start 25.4 24.13)
 		(end 152.4 53.34)
@@ -897,7 +650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03d8376b-2ab7-4b88-a602-d0cb35632127")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR059"
 			(at 107.95 54.61 0)
 			(effects
 				(font
@@ -948,7 +701,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
-					(reference "#PWR060")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -1105,80 +858,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 132.08 41.91 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b65b13a-18a6-4ec0-8137-c671738132d1")
-		(property "Reference" "J5"
-			(at 133.35 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 133.35 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 132.08 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 132.08 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d21b2cab-c9b1-4eb3-add9-894506f9149a")
-		)
-		(pin "3"
-			(uuid "632a5155-55a7-405e-8cfd-43bd817ee2bc")
-		)
-		(pin "2"
-			(uuid "b0c41bbe-7e77-4bd0-a05e-22fb9170eb83")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:WS2812B")
 		(at 88.9 39.37 0)
 		(unit 1)
@@ -1254,73 +933,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 125.73 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ad474e6-c398-43a8-adba-7933d54d7049")
-		(property "Reference" "#PWR056"
-			(at 125.73 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0b8bbf7-50de-4402-aa04-fdbe3d68f38a")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 107.95 30.48 0)
 		(unit 1)
@@ -1329,7 +941,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7791d997-d0d8-4658-b81d-30b474b24d44")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR055"
 			(at 107.95 34.29 0)
 			(effects
 				(font
@@ -1379,7 +991,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
-					(reference "#PWR054")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -1470,7 +1082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d50d5b7-53fd-4593-abcd-f3659042b7db")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR056"
 			(at 50.8 54.61 0)
 			(effects
 				(font
@@ -1521,7 +1133,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
-					(reference "#PWR057")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -1536,7 +1148,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91d81561-a012-485e-b49b-76b2a0174fef")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR052"
 			(at 50.8 34.29 0)
 			(effects
 				(font
@@ -1586,7 +1198,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
-					(reference "#PWR051")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -1601,7 +1213,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcb397c1-57f0-4567-8c82-33896d51e006")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR054"
 			(at 88.9 34.29 0)
 			(effects
 				(font
@@ -1651,7 +1263,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
-					(reference "#PWR053")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -1667,7 +1279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cec21d0c-035b-459b-a6ed-75283cc2372a")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR058"
 			(at 88.9 54.61 0)
 			(effects
 				(font
@@ -1718,7 +1330,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
-					(reference "#PWR059")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -1733,7 +1345,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d464fe09-3bff-4502-9119-769721c8e05b")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR053"
 			(at 69.85 34.29 0)
 			(effects
 				(font
@@ -1783,72 +1395,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 124.46 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d852cd89-f3b0-46b3-9d8b-2397acb572a6")
-		(property "Reference" "#PWR055"
-			(at 124.46 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 124.46 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 124.46 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbbd0846-34b3-4e7d-ab8a-7c73a39ce156")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
-					(reference "#PWR055")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -1864,7 +1411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4132523-d6e4-400c-8c5b-8ad97a57fde5")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR057"
 			(at 69.85 54.61 0)
 			(effects
 				(font
@@ -1915,7 +1462,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/778b6ab7-1162-4b51-a46c-fb76fabecb49"
-					(reference "#PWR058")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
