@@ -1295,6 +1295,26 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 100.33) (xy 139.7 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02cd011c-475f-4f00-9ab2-2efcd9914a7a")
+	)
+	(wire
+		(pts
+			(xy 59.69 53.34) (xy 59.69 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a0a2b8-3703-4926-ab2a-1effa3bd4de6")
+	)
+	(wire
+		(pts
 			(xy 64.77 39.37) (xy 43.18 39.37)
 		)
 		(stroke
@@ -1325,6 +1345,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 54.61) (xy 59.69 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bde7d54-0630-4716-9d40-ac25851d1f3b")
+	)
+	(wire
+		(pts
 			(xy 52.07 124.46) (xy 52.07 123.19)
 		)
 		(stroke
@@ -1332,16 +1362,6 @@
 			(type default)
 		)
 		(uuid "0c6c425c-c97f-41ac-8b4d-a2ecb4755a95")
-	)
-	(wire
-		(pts
-			(xy 64.77 36.83) (xy 62.23 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10fc2623-0e73-4ede-8bb4-707e16f72b61")
 	)
 	(wire
 		(pts
@@ -1385,16 +1405,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 36.83) (xy 138.43 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e4da36f-942e-43b6-a9e3-8813d61e016b")
-	)
-	(wire
-		(pts
 			(xy 97.79 39.37) (xy 99.06 39.37)
 		)
 		(stroke
@@ -1412,16 +1422,6 @@
 			(type default)
 		)
 		(uuid "26002e30-4bcf-4f94-a923-f5580b09072a")
-	)
-	(wire
-		(pts
-			(xy 64.77 87.63) (xy 62.23 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "262a18b2-f3b5-4ec0-bc4d-557f39f0f694")
 	)
 	(wire
 		(pts
@@ -1465,6 +1465,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 49.53) (xy 63.5 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32df101f-7414-4fea-98ab-f29692fe487a")
+	)
+	(wire
+		(pts
 			(xy 121.92 21.59) (xy 128.27 21.59)
 		)
 		(stroke
@@ -1502,16 +1512,6 @@
 			(type default)
 		)
 		(uuid "3b630232-5562-4190-a236-083888967bf0")
-	)
-	(wire
-		(pts
-			(xy 140.97 87.63) (xy 138.43 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d63b3e5-755c-4157-9f33-61adacc468d1")
 	)
 	(wire
 		(pts
@@ -1555,6 +1555,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 100.33) (xy 139.7 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "440abbd1-6573-463a-b572-d521df82bb88")
+	)
+	(wire
+		(pts
 			(xy 64.77 41.91) (xy 43.18 41.91)
 		)
 		(stroke
@@ -1575,6 +1585,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 100.33) (xy 63.5 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45f3d2f3-e4fe-4c57-8ae6-b85c5c663818")
+	)
+	(wire
+		(pts
 			(xy 121.92 20.32) (xy 121.92 21.59)
 		)
 		(stroke
@@ -1592,16 +1612,6 @@
 			(type default)
 		)
 		(uuid "4e616a22-5f72-47d3-9b2f-3126d811386d")
-	)
-	(wire
-		(pts
-			(xy 64.77 138.43) (xy 62.23 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50770c13-9fad-41af-af9a-886e255e73df")
 	)
 	(wire
 		(pts
@@ -1655,16 +1665,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 35.56) (xy 62.23 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6005de64-ccd1-4602-a44b-f1d6d2d1bd36")
-	)
-	(wire
-		(pts
 			(xy 45.72 21.59) (xy 52.07 21.59)
 		)
 		(stroke
@@ -1682,16 +1682,6 @@
 			(type default)
 		)
 		(uuid "65f750d7-20e6-4869-981e-75f848065fcd")
-	)
-	(wire
-		(pts
-			(xy 138.43 86.36) (xy 138.43 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6719122f-da16-483c-a2c5-dbe96a24009a")
 	)
 	(wire
 		(pts
@@ -1735,16 +1725,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 137.16) (xy 62.23 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ca10013-d835-491f-913c-70a0a30d6550")
-	)
-	(wire
-		(pts
 			(xy 97.79 46.99) (xy 99.06 46.99)
 		)
 		(stroke
@@ -1762,6 +1742,26 @@
 			(type default)
 		)
 		(uuid "6fb3827c-f5b0-474c-8572-4349a59077f5")
+	)
+	(wire
+		(pts
+			(xy 63.5 49.53) (xy 63.5 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71855a5f-ebf3-48a9-9724-4b62b0efa7c6")
+	)
+	(wire
+		(pts
+			(xy 63.5 151.13) (xy 63.5 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7264155d-916f-4f16-acf8-e91e5c319077")
 	)
 	(wire
 		(pts
@@ -1785,6 +1785,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 54.61) (xy 135.89 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e1417f1-7e7f-4ca5-b018-9a26ee3dd33d")
+	)
+	(wire
+		(pts
 			(xy 45.72 20.32) (xy 45.72 21.59)
 		)
 		(stroke
@@ -1805,6 +1815,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 105.41) (xy 59.69 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89342188-faa0-4021-ba3a-247ea6ff5f33")
+	)
+	(wire
+		(pts
 			(xy 140.97 39.37) (xy 119.38 39.37)
 		)
 		(stroke
@@ -1815,16 +1835,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 35.56) (xy 138.43 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c6c9101-a416-4db5-8174-b945b7382b09")
-	)
-	(wire
-		(pts
 			(xy 21.59 41.91) (xy 22.86 41.91)
 		)
 		(stroke
@@ -1832,6 +1842,16 @@
 			(type default)
 		)
 		(uuid "902446f9-cdf6-4819-989f-f065177df61a")
+	)
+	(wire
+		(pts
+			(xy 135.89 104.14) (xy 135.89 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9377b7a3-bd40-48b0-8ce1-a0d65a710f03")
 	)
 	(wire
 		(pts
@@ -2005,6 +2025,26 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 49.53) (xy 139.7 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba00effd-a48f-4a75-8b28-8c9f794057a2")
+	)
+	(wire
+		(pts
+			(xy 139.7 105.41) (xy 135.89 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc5d2fcc-fed8-42f0-b006-5052ce643489")
+	)
+	(wire
+		(pts
 			(xy 140.97 90.17) (xy 119.38 90.17)
 		)
 		(stroke
@@ -2025,6 +2065,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 156.21) (xy 59.69 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf032a0b-4182-47f9-9b0f-05f311b3fbd2")
+	)
+	(wire
+		(pts
 			(xy 140.97 41.91) (xy 119.38 41.91)
 		)
 		(stroke
@@ -2035,13 +2085,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 86.36) (xy 62.23 87.63)
+			(xy 64.77 151.13) (xy 63.5 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca58a448-a74a-4cbc-b1a1-88db9707086f")
+		(uuid "cf4d386e-9679-48f2-ac28-55e3f8ec7552")
 	)
 	(wire
 		(pts
@@ -2095,6 +2145,36 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 154.94) (xy 59.69 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e49051b7-8e9b-4801-86dc-a6931055c28a")
+	)
+	(wire
+		(pts
+			(xy 140.97 49.53) (xy 139.7 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e630a8a7-4f30-46f2-8313-4f500b069177")
+	)
+	(wire
+		(pts
+			(xy 59.69 104.14) (xy 59.69 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6ccaed6-c67a-422f-9c8e-50359c564d12")
+	)
+	(wire
+		(pts
 			(xy 121.92 71.12) (xy 121.92 72.39)
 		)
 		(stroke
@@ -2102,6 +2182,16 @@
 			(type default)
 		)
 		(uuid "e773adf2-c3c2-4e67-b08c-8bbf89f560b2")
+	)
+	(wire
+		(pts
+			(xy 135.89 53.34) (xy 135.89 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9093bb2-e42b-4e7b-ac7b-38d4f9142cf0")
 	)
 	(wire
 		(pts
@@ -2122,6 +2212,16 @@
 			(type default)
 		)
 		(uuid "f97b34de-c550-4bf9-9e5f-9fd08ba17dd8")
+	)
+	(wire
+		(pts
+			(xy 64.77 100.33) (xy 63.5 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ce4310-01ff-41ab-a76f-6904f0e4e10b")
 	)
 	(wire
 		(pts
@@ -2388,85 +2488,6 @@
 		(uuid "c2ff9af5-8528-49e2-b481-453b2342ad2c")
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 146.05 92.71 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0041e880-9450-4aec-ac87-6fee8cbe58c9")
-		(property "Reference" "J16"
-			(at 146.558 87.884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "JST 1x5 Male"
-			(at 146.558 90.424 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 146.05 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 146.05 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7954c5a0-0f3c-4c57-8d89-d943cd27f48f")
-		)
-		(pin "3"
-			(uuid "3f58f9f1-1703-4c4d-bf8e-a9d56b67d103")
-		)
-		(pin "4"
-			(uuid "38f4282a-e8e5-4ddc-b71f-f90d082f3ad5")
-		)
-		(pin "5"
-			(uuid "eb1c4ad4-360c-4f54-98a5-f45aa80824ee")
-		)
-		(pin "1"
-			(uuid "b578ce27-7a04-4185-bef8-d1ea11cae96f")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "J16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 33.02 111.76 0)
 		(unit 1)
@@ -2476,7 +2497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0720aa12-35bd-4cb8-bbf3-575eccfc106f")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0119"
 			(at 33.02 118.11 0)
 			(effects
 				(font
@@ -2527,7 +2548,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR0120")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -2645,71 +2666,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 62.23 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1583e32a-bcd1-42b1-82c2-ec4be297ec52")
-		(property "Reference" "#PWR0118"
-			(at 62.23 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 62.23 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 62.23 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01f36706-87c5-479c-a07d-6ac4789812c1")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR0118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 128.27 26.67 0)
 		(unit 1)
@@ -2788,7 +2744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28645f96-b236-4404-8f3c-bbbbf3f88865")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0122"
 			(at 52.07 139.7 0)
 			(effects
 				(font
@@ -2839,72 +2795,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR0123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 138.43 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f3ae5fe-e647-4b95-a561-5a695fcd12da")
-		(property "Reference" "#PWR0119"
-			(at 138.43 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 138.43 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 138.43 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "670b1fe1-5a72-4364-a53e-510f511cd50e")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR0119")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -2912,16 +2803,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 69.85 41.91 0)
-		(mirror y)
+		(at 146.05 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5282d786-3734-4892-a3aa-88fea04b3dc9")
+		(uuid "4484fb8e-2384-4082-aa14-2a201dc15a26")
 		(property "Reference" "J13"
-			(at 70.358 37.084 0)
+			(at 146.558 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2930,7 +2820,7 @@
 			)
 		)
 		(property "Value" "JST 1x5 Male"
-			(at 70.358 39.624 0)
+			(at 146.558 46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2939,7 +2829,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 69.85 41.91 0)
+			(at 146.05 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2948,7 +2838,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 41.91 0)
+			(at 146.05 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2957,7 +2847,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 69.85 41.91 0)
+			(at 146.05 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2966,24 +2856,102 @@
 			)
 		)
 		(pin "2"
-			(uuid "2dda24d0-cb52-4109-b70f-045a1fe5de6d")
+			(uuid "78e39132-82ef-482e-bd5b-5c9a6a4b6a29")
 		)
 		(pin "3"
-			(uuid "90447c81-3982-4815-8693-864705ae4cfa")
+			(uuid "5a0baca2-a161-408b-84b7-74234f31b2c3")
 		)
 		(pin "4"
-			(uuid "f23a1779-c7d0-416d-a0b3-966a7730b28b")
+			(uuid "1f16c471-bbb0-4748-b8e7-5e6e7a99c3c6")
 		)
 		(pin "5"
-			(uuid "0d6d19d6-9071-4b14-8966-dc3fb85eee1a")
+			(uuid "38f79237-1027-46c5-82c1-22de2edb44c0")
 		)
 		(pin "1"
-			(uuid "0eafafff-4852-442e-9016-c9ad507e5b2f")
+			(uuid "8668e372-34d8-4234-8bd6-66d2fb634a29")
 		)
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
 					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 146.05 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55c6f303-5a8d-45c4-b428-549c22ff4ebe")
+		(property "Reference" "J15"
+			(at 146.558 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JST 1x5 Male"
+			(at 146.558 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(at 146.05 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 146.05 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0c3dafdd-16fb-4d5c-9799-68363e28dab9")
+		)
+		(pin "3"
+			(uuid "3e00f5d5-ca69-4b60-8d04-b2eb400a70ff")
+		)
+		(pin "4"
+			(uuid "da8e9f6f-8545-49b6-8829-d915a9e39758")
+		)
+		(pin "5"
+			(uuid "1e86915d-f1ed-4657-888b-25550fc8e5fa")
+		)
+		(pin "1"
+			(uuid "e2e4f7a1-d556-482a-89f2-9860f298810d")
+		)
+		(instances
+			(project "robotic_hand_pcb"
+				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -2998,7 +2966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "574facc0-5c80-4e0e-86b1-7c904c053633")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0114"
 			(at 121.92 74.93 0)
 			(effects
 				(font
@@ -3048,7 +3016,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR0115")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -3124,6 +3092,149 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 59.69 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63fe50a8-6970-48cc-829a-a2edb58590ce")
+		(property "Reference" "#PWR0117"
+			(at 59.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 59.69 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 59.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4a359aa-c19d-4d93-8a74-84725aa9faef")
+		)
+		(instances
+			(project "robotic_hand_pcb"
+				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 69.85 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64aa2a65-4843-4129-a179-3cb4660199b9")
+		(property "Reference" "J14"
+			(at 70.358 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JST 1x5 Male"
+			(at 70.358 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(at 69.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 69.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "75b1b80a-99f8-4316-bd3d-b7d5db9f2c41")
+		)
+		(pin "3"
+			(uuid "e90a8d11-37b5-4ab8-aa83-b0fd0baa3bcc")
+		)
+		(pin "4"
+			(uuid "059eaa5a-e9ea-4dd6-a14b-0491e5541696")
+		)
+		(pin "5"
+			(uuid "a1b9eac8-8c7f-407b-9f88-27f70687215c")
+		)
+		(pin "1"
+			(uuid "3d7e2b4a-0445-48f7-ae9a-a05c148cedd8")
+		)
+		(instances
+			(project "robotic_hand_pcb"
+				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 109.22 60.96 0)
 		(unit 1)
@@ -3133,7 +3244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70450461-00e6-4017-8c68-b2704466ed45")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0112"
 			(at 109.22 67.31 0)
 			(effects
 				(font
@@ -3184,7 +3295,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR0113")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -3413,6 +3524,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 69.85 44.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d4784ed-4874-437a-9ab8-f2da9b59d0f2")
+		(property "Reference" "J12"
+			(at 70.358 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JST 1x5 Male"
+			(at 70.358 46.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(at 69.85 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 69.85 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3e6abacc-e46e-489d-91d0-a4322d1658ad")
+		)
+		(pin "3"
+			(uuid "93321efe-a614-4264-9788-c6d414d682cb")
+		)
+		(pin "4"
+			(uuid "8eb4beb8-bbb7-4815-91cd-4c204ef15891")
+		)
+		(pin "5"
+			(uuid "f59971b3-9e0a-4a07-8c57-b8a0e1043cb1")
+		)
+		(pin "1"
+			(uuid "71496387-36b1-40ea-be67-d6411d9a81a0")
+		)
+		(instances
+			(project "robotic_hand_pcb"
+				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 52.07 31.75 0)
 		(unit 1)
@@ -3422,7 +3611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d6f61b4-2ceb-4b1c-bde8-8e9183261fc5")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0107"
 			(at 52.07 38.1 0)
 			(effects
 				(font
@@ -3473,72 +3662,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 62.23 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7eeeb909-34c9-4d17-a33c-203908dda1a6")
-		(property "Reference" "#PWR0124"
-			(at 62.23 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 62.23 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 62.23 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7cf6112f-b475-4fb6-8dd0-1cf0892a1d7c")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR0124")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -3656,6 +3780,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 59.69 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "817d5972-5755-403d-b6c4-2d700bdae669")
+		(property "Reference" "#PWR0109"
+			(at 59.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 59.69 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 59.69 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "186c3f3e-5363-4100-a399-c39930e627fa")
+		)
+		(instances
+			(project "robotic_hand_pcb"
+				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 33.02 60.96 0)
 		(unit 1)
@@ -3665,7 +3854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c9d4b0f-00f3-4abf-aaaa-3d2ba144ad0b")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0111"
 			(at 33.02 67.31 0)
 			(effects
 				(font
@@ -3716,7 +3905,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR0112")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -3731,7 +3920,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8dd836bc-e14d-42df-af18-e956dac42290")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0121"
 			(at 45.72 125.73 0)
 			(effects
 				(font
@@ -3781,7 +3970,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR0122")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -3796,7 +3985,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e127f77-ed18-4c83-ac73-58de13597d93")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0113"
 			(at 45.72 74.93 0)
 			(effects
 				(font
@@ -3846,7 +4035,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR0114")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -3862,7 +4051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92a1d66b-8c5c-41ed-85b0-dbd93a55c4ae")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0108"
 			(at 128.27 38.1 0)
 			(effects
 				(font
@@ -3913,7 +4102,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR0109")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -3929,7 +4118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "949c3efe-42b4-44c3-ac17-6d0a95760efd")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0120"
 			(at 109.22 118.11 0)
 			(effects
 				(font
@@ -3980,7 +4169,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR0121")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -3995,7 +4184,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a191c6d5-f152-43c6-875b-faedd82b5aa6")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0106"
 			(at 121.92 24.13 0)
 			(effects
 				(font
@@ -4045,7 +4234,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR0107")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -4130,7 +4319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8927ff2-644c-4b26-a62f-dec238fac9eb")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0116"
 			(at 128.27 88.9 0)
 			(effects
 				(font
@@ -4181,7 +4370,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR0117")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -4258,15 +4447,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 138.43 35.56 0)
+		(at 135.89 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b4e6ab31-2533-4a6e-bbe8-4f68aa7e5c48")
-		(property "Reference" "#PWR0111"
-			(at 138.43 39.37 0)
+		(uuid "b3c4fdfa-4a35-47fa-8aef-c60b35c3f5b6")
+		(property "Reference" "#PWR0118"
+			(at 135.89 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4275,7 +4464,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 138.43 31.75 0)
+			(at 135.89 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4283,7 +4472,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 35.56 0)
+			(at 135.89 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4292,7 +4481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 35.56 0)
+			(at 135.89 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4301,7 +4490,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 138.43 35.56 0)
+			(at 135.89 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4310,91 +4499,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "51d998f0-3143-495b-a646-cbe38c9678d1")
+			(uuid "1c2b2c1d-cfbb-4edf-9b33-5837abedbfbd")
 		)
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 69.85 143.51 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c237ffd9-09f1-47fb-89df-68a32a5029c9")
-		(property "Reference" "J17"
-			(at 70.358 138.684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "JST 1x5 Male"
-			(at 70.358 141.224 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 69.85 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 69.85 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0d781285-b153-4e30-ad23-9ee0dd1d632c")
-		)
-		(pin "3"
-			(uuid "072eb64a-c727-4ce9-8748-9b731c452546")
-		)
-		(pin "4"
-			(uuid "054033da-b2f1-42cd-90da-ee7a3056d4eb")
-		)
-		(pin "5"
-			(uuid "04ee3e8a-4114-481b-a605-3ed60c5d61db")
-		)
-		(pin "1"
-			(uuid "2dc0a8f6-0193-4210-825c-eb14b8d9e5c9")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "J17")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -4402,15 +4512,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 62.23 35.56 0)
+		(at 59.69 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c87343c2-77b1-41ca-a6d3-642d177be40c")
-		(property "Reference" "#PWR0110"
-			(at 62.23 39.37 0)
+		(uuid "bcef8571-3ed0-4152-b90f-84c9c51cf3f7")
+		(property "Reference" "#PWR0123"
+			(at 59.69 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4419,7 +4529,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 62.23 31.75 0)
+			(at 59.69 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4427,7 +4537,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 35.56 0)
+			(at 59.69 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,7 +4546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 35.56 0)
+			(at 59.69 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4445,7 +4555,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 62.23 35.56 0)
+			(at 59.69 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,12 +4564,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d434d93e-0992-4ea9-bb91-38e9ed5198fd")
+			(uuid "10fe54e9-312f-4de4-9aef-6ee30022acc6")
 		)
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR0110")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -4475,7 +4585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cda3edda-345a-4cfe-a2c3-aa9ebc49e6da")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0115"
 			(at 52.07 88.9 0)
 			(effects
 				(font
@@ -4526,7 +4636,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR0116")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -4534,16 +4644,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 69.85 92.71 0)
-		(mirror y)
+		(at 69.85 146.05 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d1e12ce9-26ef-4933-ab74-6cab04745d9b")
-		(property "Reference" "J15"
-			(at 70.358 87.884 0)
+		(uuid "cdf819c6-690e-462d-ac4e-dce062aece82")
+		(property "Reference" "J16"
+			(at 70.358 150.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4552,7 +4661,7 @@
 			)
 		)
 		(property "Value" "JST 1x5 Male"
-			(at 70.358 90.424 0)
+			(at 70.358 148.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4561,7 +4670,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 69.85 92.71 0)
+			(at 69.85 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4570,7 +4679,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 92.71 0)
+			(at 69.85 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4579,7 +4688,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 69.85 92.71 0)
+			(at 69.85 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4588,24 +4697,24 @@
 			)
 		)
 		(pin "2"
-			(uuid "e13581c1-9f31-4b35-83e0-9cda1fee7b0c")
+			(uuid "815025eb-60d4-409b-bd20-dd38ac0c5b65")
 		)
 		(pin "3"
-			(uuid "74a7798b-b7b9-4d7c-b73f-9c31b14a0f1f")
+			(uuid "b153c083-76bf-4e0c-a334-e3ac728c1384")
 		)
 		(pin "4"
-			(uuid "a81273e7-2abd-4a15-9026-0e456eedb3a8")
+			(uuid "87343813-8814-4d8b-867a-d0706e624c4a")
 		)
 		(pin "5"
-			(uuid "de9bfda0-c82a-44e6-81c0-eec5f972ffe2")
+			(uuid "314203f2-40fe-4700-935b-608c068049a1")
 		)
 		(pin "1"
-			(uuid "ec1bb1f5-35b5-4089-9bfd-3f4bf55cc542")
+			(uuid "3e7ba649-b3d9-40ca-9e7e-436e9c215ca3")
 		)
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "J15")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -4621,7 +4730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfe6cef6-6ca1-46b4-b118-fd98f9ef0a67")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0124"
 			(at 33.02 168.91 0)
 			(effects
 				(font
@@ -4672,7 +4781,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR0125")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -4742,85 +4851,6 @@
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
 					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 146.05 41.91 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f530362c-0f9a-4522-af01-206681396860")
-		(property "Reference" "J14"
-			(at 146.558 37.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "JST 1x5 Male"
-			(at 146.558 39.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 146.05 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 146.05 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "410c072d-408b-4770-943b-aaa1bcd25a3d")
-		)
-		(pin "3"
-			(uuid "1c8d0c18-8ae7-433c-aa82-b594d4f240b9")
-		)
-		(pin "4"
-			(uuid "a1234b4e-58cb-44d8-ad22-9b8b62a3b221")
-		)
-		(pin "5"
-			(uuid "ef7b2a8b-a6d3-4423-bf98-9df12ece18aa")
-		)
-		(pin "1"
-			(uuid "55119d30-fafc-42a6-b4a3-1f7b33e7c991")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -4946,7 +4976,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc18d81e-5e62-4a21-ac18-37916ac6163a")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0105"
 			(at 45.72 24.13 0)
 			(effects
 				(font
@@ -4996,7 +5026,72 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
-					(reference "#PWR0106")
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 135.89 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc93c543-5dd8-4206-9250-b0c75cc13da9")
+		(property "Reference" "#PWR0110"
+			(at 135.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 135.89 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 135.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b408e568-0c16-468e-b90b-ab777e9df6a1")
+		)
+		(instances
+			(project "robotic_hand_pcb"
+				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/519c2916-f1e5-4bf2-b7d2-8398d436960c"
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
