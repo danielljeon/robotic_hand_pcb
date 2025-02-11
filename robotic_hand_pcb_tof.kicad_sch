@@ -2269,11 +2269,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
+		(dnp no)
 		(uuid "3541a454-0dff-4c60-b5d2-be3e2a232fef")
 		(property "Reference" "U6"
-			(at 72.39 83.8514 0)
+			(at 67.31 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2288,7 +2287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "adafruit:adafruit_5396_vl53l4cd"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 58.42 88.9 0)
 			(effects
 				(font
