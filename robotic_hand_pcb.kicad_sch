@@ -7918,6 +7918,7 @@
 	)
 	(label "HSE_IN"
 		(at 60.96 91.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7928,6 +7929,7 @@
 	)
 	(label "HSE_OUT"
 		(at 60.96 93.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7938,6 +7940,7 @@
 	)
 	(label "BOOT0"
 		(at 60.96 86.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7949,6 +7952,7 @@
 	(hierarchical_label "M2_2"
 		(shape input)
 		(at 123.19 186.69 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7960,6 +7964,7 @@
 	(hierarchical_label "M3_1"
 		(shape input)
 		(at 97.79 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7971,6 +7976,7 @@
 	(hierarchical_label "SPI3_SCK"
 		(shape input)
 		(at 59.69 129.54 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7982,6 +7988,7 @@
 	(hierarchical_label "GPIO_IMU_P0"
 		(shape input)
 		(at 59.69 116.84 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7993,6 +8000,7 @@
 	(hierarchical_label "SPI3_SCK"
 		(shape input)
 		(at 240.03 134.62 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8004,6 +8012,7 @@
 	(hierarchical_label "M5_4"
 		(shape input)
 		(at 97.79 152.4 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8015,6 +8024,7 @@
 	(hierarchical_label "M2_3"
 		(shape input)
 		(at 59.69 121.92 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8026,6 +8036,7 @@
 	(hierarchical_label "EXTI4_TOF_INT"
 		(shape input)
 		(at 240.03 71.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8037,6 +8048,7 @@
 	(hierarchical_label "SPI1_MISO"
 		(shape input)
 		(at 97.79 96.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8048,6 +8060,7 @@
 	(hierarchical_label "M5_2"
 		(shape input)
 		(at 97.79 157.48 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8059,6 +8072,7 @@
 	(hierarchical_label "GPIO_IMU_RST"
 		(shape input)
 		(at 240.03 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8070,6 +8084,7 @@
 	(hierarchical_label "M1_3"
 		(shape input)
 		(at 123.19 148.59 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8081,6 +8096,7 @@
 	(hierarchical_label "M1_4"
 		(shape input)
 		(at 123.19 151.13 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8092,6 +8108,7 @@
 	(hierarchical_label "M2_1"
 		(shape input)
 		(at 59.69 127 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8103,6 +8120,7 @@
 	(hierarchical_label "SWDIO"
 		(shape input)
 		(at 97.79 114.3 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8114,6 +8132,7 @@
 	(hierarchical_label "GPIO_TOF_XSHUT"
 		(shape input)
 		(at 97.79 137.16 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8125,6 +8144,7 @@
 	(hierarchical_label "USART1_TX"
 		(shape input)
 		(at 97.79 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8136,6 +8156,7 @@
 	(hierarchical_label "I2C1_SDA"
 		(shape input)
 		(at 240.03 76.2 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8147,6 +8168,7 @@
 	(hierarchical_label "M2_4"
 		(shape input)
 		(at 123.19 191.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8158,6 +8180,7 @@
 	(hierarchical_label "EXTI4_TOF_INT"
 		(shape input)
 		(at 97.79 134.62 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8169,6 +8192,7 @@
 	(hierarchical_label "M4_3"
 		(shape input)
 		(at 97.79 127 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8180,6 +8204,7 @@
 	(hierarchical_label "M4_4"
 		(shape input)
 		(at 97.79 124.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8191,6 +8216,7 @@
 	(hierarchical_label "M5_3"
 		(shape input)
 		(at 123.19 179.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8202,6 +8228,7 @@
 	(hierarchical_label "SWO"
 		(shape input)
 		(at 36.83 38.1 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8213,6 +8240,7 @@
 	(hierarchical_label "NRST"
 		(shape input)
 		(at 52.07 76.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8224,6 +8252,7 @@
 	(hierarchical_label "M5_1"
 		(shape input)
 		(at 97.79 160.02 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8235,6 +8264,7 @@
 	(hierarchical_label "SPI1_SCK"
 		(shape input)
 		(at 97.79 93.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8246,6 +8276,7 @@
 	(hierarchical_label "M3_4"
 		(shape input)
 		(at 123.19 161.29 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8257,6 +8288,7 @@
 	(hierarchical_label "M2_1"
 		(shape input)
 		(at 123.19 184.15 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8268,6 +8300,7 @@
 	(hierarchical_label "I2C1_SCL"
 		(shape input)
 		(at 240.03 73.66 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8279,6 +8312,7 @@
 	(hierarchical_label "EXTI2_ADC_DRDY"
 		(shape input)
 		(at 59.69 99.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8290,6 +8324,7 @@
 	(hierarchical_label "GPIO_SPI3_CS"
 		(shape input)
 		(at 240.03 142.24 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8301,6 +8336,7 @@
 	(hierarchical_label "M5_4"
 		(shape input)
 		(at 123.19 181.61 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8312,6 +8348,7 @@
 	(hierarchical_label "SPI1_SCK"
 		(shape input)
 		(at 240.03 93.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8323,6 +8360,7 @@
 	(hierarchical_label "I2C1_SDA"
 		(shape input)
 		(at 97.79 142.24 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8334,6 +8372,7 @@
 	(hierarchical_label "M3_3"
 		(shape input)
 		(at 97.79 83.82 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8345,6 +8384,7 @@
 	(hierarchical_label "TIM1_CH1_PWM_{5V}"
 		(shape input)
 		(at 240.03 119.38 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8356,6 +8396,7 @@
 	(hierarchical_label "M1_2"
 		(shape input)
 		(at 123.19 146.05 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8367,6 +8408,7 @@
 	(hierarchical_label "SPI3_MOSI"
 		(shape input)
 		(at 59.69 134.62 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8378,6 +8420,7 @@
 	(hierarchical_label "M3_4"
 		(shape input)
 		(at 97.79 81.28 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8389,6 +8432,7 @@
 	(hierarchical_label "TIM1_CH1_PWM_{5V}"
 		(shape input)
 		(at 265.43 31.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8400,6 +8444,7 @@
 	(hierarchical_label "GPIO_ADC_RST"
 		(shape input)
 		(at 240.03 144.78 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8411,6 +8456,7 @@
 	(hierarchical_label "SPI3_MISO"
 		(shape input)
 		(at 240.03 139.7 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8422,6 +8468,7 @@
 	(hierarchical_label "M1_2"
 		(shape input)
 		(at 59.69 109.22 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8433,6 +8480,7 @@
 	(hierarchical_label "M4_2"
 		(shape input)
 		(at 123.19 166.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8444,6 +8492,7 @@
 	(hierarchical_label "M1_4"
 		(shape input)
 		(at 59.69 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8455,6 +8504,7 @@
 	(hierarchical_label "EXTI4_IMU_INT"
 		(shape input)
 		(at 240.03 91.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8466,6 +8516,7 @@
 	(hierarchical_label "EXTI2_ADC_DRDY"
 		(shape input)
 		(at 240.03 132.08 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8477,6 +8528,7 @@
 	(hierarchical_label "M3_1"
 		(shape input)
 		(at 123.19 153.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8488,6 +8540,7 @@
 	(hierarchical_label "USART1_RX"
 		(shape input)
 		(at 99.06 190.5 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8499,6 +8552,7 @@
 	(hierarchical_label "M4_3"
 		(shape input)
 		(at 123.19 168.91 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8510,6 +8564,7 @@
 	(hierarchical_label "SWDIO"
 		(shape input)
 		(at 36.83 35.56 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8521,6 +8576,7 @@
 	(hierarchical_label "M5_3"
 		(shape input)
 		(at 97.79 154.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8532,6 +8588,7 @@
 	(hierarchical_label "SWO"
 		(shape input)
 		(at 97.79 132.08 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8543,6 +8600,7 @@
 	(hierarchical_label "M4_1"
 		(shape input)
 		(at 97.79 149.86 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8554,6 +8612,7 @@
 	(hierarchical_label "M2_2"
 		(shape input)
 		(at 59.69 124.46 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8565,6 +8624,7 @@
 	(hierarchical_label "M3_2"
 		(shape input)
 		(at 123.19 156.21 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8576,6 +8636,7 @@
 	(hierarchical_label "M5_2"
 		(shape input)
 		(at 123.19 176.53 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8587,6 +8648,7 @@
 	(hierarchical_label "SWCLK"
 		(shape input)
 		(at 36.83 33.02 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8598,6 +8660,7 @@
 	(hierarchical_label "M5_1"
 		(shape input)
 		(at 123.19 173.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8609,6 +8672,7 @@
 	(hierarchical_label "M3_3"
 		(shape input)
 		(at 123.19 158.75 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8620,6 +8684,7 @@
 	(hierarchical_label "M2_4"
 		(shape input)
 		(at 59.69 119.38 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8631,6 +8696,7 @@
 	(hierarchical_label "M1_1"
 		(shape input)
 		(at 123.19 143.51 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8642,6 +8708,7 @@
 	(hierarchical_label "USART1_RX"
 		(shape input)
 		(at 97.79 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8653,6 +8720,7 @@
 	(hierarchical_label "I2C1_SCL"
 		(shape input)
 		(at 97.79 139.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8664,6 +8732,7 @@
 	(hierarchical_label "M3_2"
 		(shape input)
 		(at 97.79 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8675,6 +8744,7 @@
 	(hierarchical_label "M4_1"
 		(shape input)
 		(at 123.19 163.83 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8686,6 +8756,7 @@
 	(hierarchical_label "NRST"
 		(shape input)
 		(at 36.83 25.4 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8697,6 +8768,7 @@
 	(hierarchical_label "TIM1_CH1_PWM"
 		(shape input)
 		(at 245.11 31.75 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8708,6 +8780,7 @@
 	(hierarchical_label "GPIO_ADC_SYNC"
 		(shape input)
 		(at 97.79 109.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8719,6 +8792,7 @@
 	(hierarchical_label "GPIO_ADC_RST"
 		(shape input)
 		(at 97.79 111.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8730,6 +8804,7 @@
 	(hierarchical_label "EXTI4_IMU_INT"
 		(shape input)
 		(at 97.79 91.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8741,6 +8816,7 @@
 	(hierarchical_label "M1_3"
 		(shape input)
 		(at 59.69 106.68 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8752,6 +8828,7 @@
 	(hierarchical_label "TIM1_CH1_PWM"
 		(shape input)
 		(at 97.79 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8763,6 +8840,7 @@
 	(hierarchical_label "GPIO_IMU_P0"
 		(shape input)
 		(at 240.03 106.68 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8774,6 +8852,7 @@
 	(hierarchical_label "SWCLK"
 		(shape input)
 		(at 97.79 116.84 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8785,6 +8864,7 @@
 	(hierarchical_label "SPI1_MOSI"
 		(shape input)
 		(at 240.03 96.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8796,6 +8876,7 @@
 	(hierarchical_label "M4_2"
 		(shape input)
 		(at 97.79 129.54 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8807,6 +8888,7 @@
 	(hierarchical_label "GPIO_SPI1_CS"
 		(shape input)
 		(at 97.79 147.32 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8818,6 +8900,7 @@
 	(hierarchical_label "GPIO_TOF_XSHUT"
 		(shape input)
 		(at 240.03 78.74 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8829,6 +8912,7 @@
 	(hierarchical_label "SPI1_MOSI"
 		(shape input)
 		(at 97.79 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8840,6 +8924,7 @@
 	(hierarchical_label "SPI3_MISO"
 		(shape input)
 		(at 59.69 132.08 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8851,6 +8936,7 @@
 	(hierarchical_label "GPIO_SPI3_CS"
 		(shape input)
 		(at 97.79 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8862,6 +8948,7 @@
 	(hierarchical_label "GPIO_ADC_SYNC"
 		(shape input)
 		(at 240.03 147.32 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8873,6 +8960,7 @@
 	(hierarchical_label "M2_3"
 		(shape input)
 		(at 123.19 189.23 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8884,6 +8972,7 @@
 	(hierarchical_label "M1_1"
 		(shape input)
 		(at 59.69 111.76 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8895,6 +8984,7 @@
 	(hierarchical_label "SPI1_MISO"
 		(shape input)
 		(at 240.03 99.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8906,6 +8996,7 @@
 	(hierarchical_label "V_{IN}"
 		(shape input)
 		(at 54.61 21.59 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8917,6 +9008,7 @@
 	(hierarchical_label "USART1_TX"
 		(shape input)
 		(at 99.06 187.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8928,6 +9020,7 @@
 	(hierarchical_label "SPI3_MOSI"
 		(shape input)
 		(at 240.03 137.16 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8939,6 +9032,7 @@
 	(hierarchical_label "GPIO_IMU_RST"
 		(shape input)
 		(at 59.69 114.3 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8950,6 +9044,7 @@
 	(hierarchical_label "M4_4"
 		(shape input)
 		(at 123.19 171.45 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8961,6 +9056,7 @@
 	(hierarchical_label "GPIO_SPI1_CS"
 		(shape input)
 		(at 240.03 101.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
