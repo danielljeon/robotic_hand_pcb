@@ -1840,7 +1840,6 @@
 	(hierarchical_label "TOF_INT"
 		(shape input)
 		(at 73.66 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1852,7 +1851,6 @@
 	(hierarchical_label "TOF_XSHUT"
 		(shape input)
 		(at 44.45 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1864,7 +1862,6 @@
 	(hierarchical_label "TOF_SDA"
 		(shape input)
 		(at 44.45 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1876,7 +1873,6 @@
 	(hierarchical_label "TOF_XSHUT"
 		(shape input)
 		(at 26.67 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1888,7 +1884,6 @@
 	(hierarchical_label "TOF_SCL"
 		(shape input)
 		(at 44.45 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1900,7 +1895,6 @@
 	(hierarchical_label "TOF_SCL"
 		(shape input)
 		(at 26.67 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1912,7 +1906,6 @@
 	(hierarchical_label "TOF_SDA"
 		(shape input)
 		(at 26.67 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1924,7 +1917,6 @@
 	(hierarchical_label "TOF_INT"
 		(shape input)
 		(at 90.17 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
