@@ -13438,8 +13438,9 @@
 		(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 2.54mm single row")
 		(property "Reference" "U6"
-			(at 0 2.75 180)
+			(at 0 2.75 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "7b830b31-888b-426f-8ff4-2134b85766c7")
 			(effects
 				(font
@@ -20504,7 +20505,7 @@
 		(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x05 2.54mm single row")
 		(property "Reference" "J15"
-			(at 0 3 90)
+			(at 0 2.46 180)
 			(layer "B.SilkS")
 			(uuid "5b3f8921-4c50-460f-bdb1-6b3a5b18d8fa")
 			(effects
@@ -28575,7 +28576,7 @@
 		(uuid "f68920b1-3783-4c24-8aa3-aa59bf10dbed")
 	)
 	(gr_text "SCL"
-		(at 137.75 83 45)
+		(at 137.75 83 60)
 		(layer "B.SilkS")
 		(uuid "2b227952-d95d-4cd3-9864-b71099398c79")
 		(effects
@@ -28587,7 +28588,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 140.25 83 45)
+		(at 140.25 83 60)
 		(layer "B.SilkS")
 		(uuid "6759a6c2-5bd4-4168-95a9-ac762f7a9e1e")
 		(effects
@@ -28599,7 +28600,7 @@
 		)
 	)
 	(gr_text "XSHUT"
-		(at 130.25 83 45)
+		(at 130.25 83 60)
 		(layer "B.SilkS")
 		(uuid "c8368256-62aa-40e2-b247-42fc5588ef97")
 		(effects
@@ -28611,7 +28612,7 @@
 		)
 	)
 	(gr_text "3V3"
-		(at 142.75 83 45)
+		(at 142.75 83 60)
 		(layer "B.SilkS")
 		(uuid "c9b82984-7a6a-4f72-9b23-ae88989b792e")
 		(effects
@@ -28622,8 +28623,20 @@
 			(justify left mirror)
 		)
 	)
+	(gr_text "JU6"
+		(at 145.25 81.25 90)
+		(layer "B.SilkS")
+		(uuid "d92a8ba2-6fad-47e8-bf16-40c81e161e5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "SDA"
-		(at 135.25 83 45)
+		(at 135.25 83 60)
 		(layer "B.SilkS")
 		(uuid "e5bda718-5622-4f6f-8d22-cf9ae52c96dc")
 		(effects
@@ -28635,7 +28648,7 @@
 		)
 	)
 	(gr_text "INT"
-		(at 132.75 83 45)
+		(at 132.75 83 60)
 		(layer "B.SilkS")
 		(uuid "edc51d95-f684-40d2-bcae-5c85e41e2597")
 		(effects
