@@ -2206,7 +2206,6 @@
 	(hierarchical_label "IMU_MOSI"
 		(shape input)
 		(at 72.39 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2218,7 +2217,6 @@
 	(hierarchical_label "IMU_CS"
 		(shape input)
 		(at 72.39 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2230,7 +2228,6 @@
 	(hierarchical_label "IMU_INT"
 		(shape input)
 		(at 115.57 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2242,7 +2239,6 @@
 	(hierarchical_label "IMU_MISO"
 		(shape input)
 		(at 72.39 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2254,7 +2250,6 @@
 	(hierarchical_label "IMU_NRST"
 		(shape input)
 		(at 53.34 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2266,7 +2261,6 @@
 	(hierarchical_label "IMU_PS0"
 		(shape input)
 		(at 72.39 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2278,7 +2272,6 @@
 	(hierarchical_label "IMU_SCK"
 		(shape input)
 		(at 72.39 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2296,7 +2289,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08a68517-bbcd-45e4-9304-af056bdd6eaa")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR044"
 			(at 182.88 67.31 0)
 			(effects
 				(font
@@ -2346,7 +2339,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/f209e5e9-1726-454a-82e1-5fd492ecf1c3"
-					(reference "#PWR048")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -2500,7 +2493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46b12d72-3108-4991-8ef4-ca87c5455bb8")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR047"
 			(at 87.63 105.41 0)
 			(effects
 				(font
@@ -2551,7 +2544,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/f209e5e9-1726-454a-82e1-5fd492ecf1c3"
-					(reference "#PWR051")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -2636,7 +2629,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c9b6a42-5fec-493b-86fa-e21cafad720b")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR041"
 			(at 162.56 58.42 0)
 			(effects
 				(font
@@ -2686,7 +2679,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/f209e5e9-1726-454a-82e1-5fd492ecf1c3"
-					(reference "#PWR045")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -2702,7 +2695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5da44ba9-cf39-4698-ac46-3111fb163896")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR038"
 			(at 106.68 49.53 0)
 			(effects
 				(font
@@ -2753,7 +2746,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/f209e5e9-1726-454a-82e1-5fd492ecf1c3"
-					(reference "#PWR042")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -2768,7 +2761,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62c099c8-8813-4d9b-9555-9785b6f0350a")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR039"
 			(at 67.31 49.53 0)
 			(effects
 				(font
@@ -2818,7 +2811,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/f209e5e9-1726-454a-82e1-5fd492ecf1c3"
-					(reference "#PWR043")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -2834,7 +2827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "657268e6-4a7e-4417-9276-4b45b81c915d")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR046"
 			(at 93.98 97.79 0)
 			(effects
 				(font
@@ -2885,7 +2878,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/f209e5e9-1726-454a-82e1-5fd492ecf1c3"
-					(reference "#PWR050")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -3040,7 +3033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "866674e0-cc9d-44c7-abcb-3d709398892a")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR042"
 			(at 129.54 62.23 0)
 			(effects
 				(font
@@ -3091,7 +3084,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/f209e5e9-1726-454a-82e1-5fd492ecf1c3"
-					(reference "#PWR046")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -3367,7 +3360,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c70dd98-2d45-424f-8167-ff0045e2ddad")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR037"
 			(at 106.68 34.29 0)
 			(effects
 				(font
@@ -3417,7 +3410,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/f209e5e9-1726-454a-82e1-5fd492ecf1c3"
-					(reference "#PWR041")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3433,7 +3426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a65b203c-d53d-4ac4-99cf-c9488e95c487")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR045"
 			(at 152.4 72.39 0)
 			(effects
 				(font
@@ -3484,7 +3477,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/f209e5e9-1726-454a-82e1-5fd492ecf1c3"
-					(reference "#PWR049")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -3568,7 +3561,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b399af9c-0ffe-4272-b138-752fc0dab39d")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR043"
 			(at 170.18 67.31 0)
 			(effects
 				(font
@@ -3618,7 +3611,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/f209e5e9-1726-454a-82e1-5fd492ecf1c3"
-					(reference "#PWR047")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3815,7 +3808,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c124ad9a-5392-4aac-9d37-ed10ddc750f5")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR040"
 			(at 54.61 57.15 0)
 			(effects
 				(font
@@ -3865,7 +3858,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/f209e5e9-1726-454a-82e1-5fd492ecf1c3"
-					(reference "#PWR044")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
