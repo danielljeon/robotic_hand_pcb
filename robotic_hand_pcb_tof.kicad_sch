@@ -1840,7 +1840,6 @@
 	(hierarchical_label "TOF_INT"
 		(shape input)
 		(at 73.66 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1852,7 +1851,6 @@
 	(hierarchical_label "TOF_XSHUT"
 		(shape input)
 		(at 44.45 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1864,7 +1862,6 @@
 	(hierarchical_label "TOF_SDA"
 		(shape input)
 		(at 44.45 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1876,7 +1873,6 @@
 	(hierarchical_label "TOF_XSHUT"
 		(shape input)
 		(at 26.67 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1888,7 +1884,6 @@
 	(hierarchical_label "TOF_SCL"
 		(shape input)
 		(at 44.45 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1900,7 +1895,6 @@
 	(hierarchical_label "TOF_SCL"
 		(shape input)
 		(at 26.67 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1912,7 +1906,6 @@
 	(hierarchical_label "TOF_SDA"
 		(shape input)
 		(at 26.67 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1924,7 +1917,6 @@
 	(hierarchical_label "TOF_INT"
 		(shape input)
 		(at 90.17 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1943,7 +1935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08e2d8c9-8cb7-493b-9eb1-76d34abe8766")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR033"
 			(at 74.93 40.64 0)
 			(effects
 				(font
@@ -1994,7 +1986,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/d34df37d-94b6-45ab-99ed-47ba0f34ea70"
-					(reference "#PWR037")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2214,7 +2206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "332082b6-7179-4e66-ab59-6fc81398addc")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR035"
 			(at 55.88 80.01 0)
 			(effects
 				(font
@@ -2264,7 +2256,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/d34df37d-94b6-45ab-99ed-47ba0f34ea70"
-					(reference "#PWR039")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -2472,7 +2464,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43439967-6efb-49ee-8144-0a4317130e89")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR031"
 			(at 74.93 25.4 0)
 			(effects
 				(font
@@ -2522,7 +2514,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/d34df37d-94b6-45ab-99ed-47ba0f34ea70"
-					(reference "#PWR035")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -2538,7 +2530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4db33b94-2c65-4b80-a753-8398730d942f")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR036"
 			(at 58.42 107.95 0)
 			(effects
 				(font
@@ -2589,7 +2581,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/d34df37d-94b6-45ab-99ed-47ba0f34ea70"
-					(reference "#PWR040")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -2885,7 +2877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "927faa1d-0500-4199-a3b9-6c91545702e3")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR034"
 			(at 57.15 72.39 0)
 			(effects
 				(font
@@ -2936,7 +2928,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/d34df37d-94b6-45ab-99ed-47ba0f34ea70"
-					(reference "#PWR038")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2951,7 +2943,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b00841aa-56d6-4136-af0e-692289851b18")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR032"
 			(at 86.36 25.4 0)
 			(effects
 				(font
@@ -3001,7 +2993,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/d34df37d-94b6-45ab-99ed-47ba0f34ea70"
-					(reference "#PWR036")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3016,7 +3008,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c15374cf-e3da-4bea-a055-ded8492f01ea")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR030"
 			(at 33.02 25.4 0)
 			(effects
 				(font
@@ -3066,7 +3058,7 @@
 		(instances
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/d34df37d-94b6-45ab-99ed-47ba0f34ea70"
-					(reference "#PWR034")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)

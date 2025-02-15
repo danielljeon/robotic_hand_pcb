@@ -663,23 +663,23 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+		(symbol "Mechanical:MountingHole"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+			)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 6.35 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -704,7 +704,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole with connection"
+			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -722,7 +722,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
+			(property "ki_fp_filters" "MountingHole*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -731,9 +731,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_Pad_0_1"
+			(symbol "MountingHole_0_1"
 				(circle
-					(center 0 1.27)
+					(center 0 0)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -741,26 +741,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -5177,12 +5157,20 @@
 		(uuid "29802e79-e72a-4299-8fa5-ab6c2f0fbc89")
 	)
 	(no_connect
+		(at 245.11 31.75)
+		(uuid "42f65038-10a1-4783-820a-f9721ac94302")
+	)
+	(no_connect
 		(at 245.11 34.29)
 		(uuid "483b4009-9e8d-49ad-942d-c8b00a4e0e41")
 	)
 	(no_connect
 		(at 265.43 36.83)
 		(uuid "4bd9936a-a37f-4692-a593-2654c953763c")
+	)
+	(no_connect
+		(at 265.43 31.75)
+		(uuid "72780508-881a-4fea-a473-9235197e0fe5")
 	)
 	(no_connect
 		(at 60.96 137.16)
@@ -5195,14 +5183,6 @@
 	(no_connect
 		(at 96.52 144.78)
 		(uuid "dc6d207c-695d-4eae-9a44-3efd4361246b")
-	)
-	(no_connect
-		(at 265.43 39.37)
-		(uuid "dd246248-fee3-48af-a685-c89e7ce4bdf6")
-	)
-	(no_connect
-		(at 245.11 39.37)
-		(uuid "dfd30083-e18d-4222-a218-05c0d9f0c3cb")
 	)
 	(wire
 		(pts
@@ -7918,7 +7898,6 @@
 	)
 	(label "HSE_IN"
 		(at 60.96 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7929,7 +7908,6 @@
 	)
 	(label "HSE_OUT"
 		(at 60.96 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7940,7 +7918,6 @@
 	)
 	(label "BOOT0"
 		(at 60.96 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7952,7 +7929,6 @@
 	(hierarchical_label "M2_2"
 		(shape input)
 		(at 123.19 186.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7964,7 +7940,6 @@
 	(hierarchical_label "M3_1"
 		(shape input)
 		(at 97.79 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7976,7 +7951,6 @@
 	(hierarchical_label "SPI3_SCK"
 		(shape input)
 		(at 59.69 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7988,7 +7962,6 @@
 	(hierarchical_label "GPIO_IMU_P0"
 		(shape input)
 		(at 59.69 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8000,7 +7973,6 @@
 	(hierarchical_label "SPI3_SCK"
 		(shape input)
 		(at 240.03 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8009,22 +7981,9 @@
 		)
 		(uuid "0b867a45-64e5-4ed7-a40d-692575d4beff")
 	)
-	(hierarchical_label "M5_4"
-		(shape input)
-		(at 97.79 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0d2bf40d-72b1-406d-b8cd-887e17ce81fb")
-	)
 	(hierarchical_label "M2_3"
 		(shape input)
 		(at 59.69 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8036,7 +7995,6 @@
 	(hierarchical_label "EXTI4_TOF_INT"
 		(shape input)
 		(at 240.03 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8048,7 +8006,6 @@
 	(hierarchical_label "SPI1_MISO"
 		(shape input)
 		(at 97.79 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8057,22 +8014,9 @@
 		)
 		(uuid "15e0a669-eeec-4d7b-b57d-6e825e25b4e4")
 	)
-	(hierarchical_label "M5_2"
-		(shape input)
-		(at 97.79 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1899bc9a-e7f3-4a72-9f33-1b6f3c402397")
-	)
 	(hierarchical_label "GPIO_IMU_RST"
 		(shape input)
 		(at 240.03 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8084,7 +8028,6 @@
 	(hierarchical_label "M1_3"
 		(shape input)
 		(at 123.19 148.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8096,7 +8039,6 @@
 	(hierarchical_label "M1_4"
 		(shape input)
 		(at 123.19 151.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8108,7 +8050,6 @@
 	(hierarchical_label "M2_1"
 		(shape input)
 		(at 59.69 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8120,7 +8061,6 @@
 	(hierarchical_label "SWDIO"
 		(shape input)
 		(at 97.79 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8132,7 +8072,6 @@
 	(hierarchical_label "GPIO_TOF_XSHUT"
 		(shape input)
 		(at 97.79 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8144,7 +8083,6 @@
 	(hierarchical_label "USART1_TX"
 		(shape input)
 		(at 97.79 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8156,7 +8094,6 @@
 	(hierarchical_label "I2C1_SDA"
 		(shape input)
 		(at 240.03 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8168,7 +8105,6 @@
 	(hierarchical_label "M2_4"
 		(shape input)
 		(at 123.19 191.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8180,7 +8116,6 @@
 	(hierarchical_label "EXTI4_TOF_INT"
 		(shape input)
 		(at 97.79 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8192,7 +8127,6 @@
 	(hierarchical_label "M4_3"
 		(shape input)
 		(at 97.79 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8204,7 +8138,6 @@
 	(hierarchical_label "M4_4"
 		(shape input)
 		(at 97.79 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8216,7 +8149,6 @@
 	(hierarchical_label "M5_3"
 		(shape input)
 		(at 123.19 179.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8228,7 +8160,6 @@
 	(hierarchical_label "SWO"
 		(shape input)
 		(at 36.83 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8240,7 +8171,6 @@
 	(hierarchical_label "NRST"
 		(shape input)
 		(at 52.07 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8249,22 +8179,9 @@
 		)
 		(uuid "39fd5d32-711a-47eb-9df1-37c260376546")
 	)
-	(hierarchical_label "M5_1"
-		(shape input)
-		(at 97.79 160.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3a460bbb-6855-4fc3-afed-17b54ee87db7")
-	)
 	(hierarchical_label "SPI1_SCK"
 		(shape input)
 		(at 97.79 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8276,7 +8193,6 @@
 	(hierarchical_label "M3_4"
 		(shape input)
 		(at 123.19 161.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8288,7 +8204,6 @@
 	(hierarchical_label "M2_1"
 		(shape input)
 		(at 123.19 184.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8300,7 +8215,6 @@
 	(hierarchical_label "I2C1_SCL"
 		(shape input)
 		(at 240.03 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8312,7 +8226,6 @@
 	(hierarchical_label "EXTI2_ADC_DRDY"
 		(shape input)
 		(at 59.69 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8324,7 +8237,6 @@
 	(hierarchical_label "GPIO_SPI3_CS"
 		(shape input)
 		(at 240.03 142.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8336,7 +8248,6 @@
 	(hierarchical_label "M5_4"
 		(shape input)
 		(at 123.19 181.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8348,7 +8259,6 @@
 	(hierarchical_label "SPI1_SCK"
 		(shape input)
 		(at 240.03 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8357,10 +8267,20 @@
 		)
 		(uuid "466d2c25-76b4-4724-a37e-f2103ae60a88")
 	)
+	(hierarchical_label "M5_3"
+		(shape input)
+		(at 97.79 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48941ad8-9503-43ed-b437-a851d943f47c")
+	)
 	(hierarchical_label "I2C1_SDA"
 		(shape input)
 		(at 97.79 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8372,7 +8292,6 @@
 	(hierarchical_label "M3_3"
 		(shape input)
 		(at 97.79 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8384,7 +8303,6 @@
 	(hierarchical_label "TIM1_CH1_PWM_{5V}"
 		(shape input)
 		(at 240.03 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8396,7 +8314,6 @@
 	(hierarchical_label "M1_2"
 		(shape input)
 		(at 123.19 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8408,7 +8325,6 @@
 	(hierarchical_label "SPI3_MOSI"
 		(shape input)
 		(at 59.69 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8417,10 +8333,31 @@
 		)
 		(uuid "5335183d-623d-44ea-809b-b8c0fcc37999")
 	)
+	(hierarchical_label "M5_2"
+		(shape input)
+		(at 97.79 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5abdd1a1-b115-4435-9896-4e8e869870f5")
+	)
+	(hierarchical_label "TIM1_CH1_PWM_{5V}"
+		(shape input)
+		(at 265.43 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5cc32de4-b7b2-4e92-a779-9b5909cf37e9")
+	)
 	(hierarchical_label "M3_4"
 		(shape input)
 		(at 97.79 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8429,22 +8366,20 @@
 		)
 		(uuid "629bb06e-1b1a-43f2-b714-b2b301ac47ed")
 	)
-	(hierarchical_label "TIM1_CH1_PWM_{5V}"
+	(hierarchical_label "TIM1_CH1_PWM"
 		(shape input)
-		(at 265.43 31.75 0)
-		(fields_autoplaced yes)
+		(at 245.11 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "64f610bf-cf94-453f-94d3-b42d0ffe1679")
+		(uuid "6460987a-5d4f-460e-8da6-348acf5e6a8d")
 	)
 	(hierarchical_label "GPIO_ADC_RST"
 		(shape input)
 		(at 240.03 144.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8456,7 +8391,6 @@
 	(hierarchical_label "SPI3_MISO"
 		(shape input)
 		(at 240.03 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8468,7 +8402,6 @@
 	(hierarchical_label "M1_2"
 		(shape input)
 		(at 59.69 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8480,7 +8413,6 @@
 	(hierarchical_label "M4_2"
 		(shape input)
 		(at 123.19 166.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8492,7 +8424,6 @@
 	(hierarchical_label "M1_4"
 		(shape input)
 		(at 59.69 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8504,7 +8435,6 @@
 	(hierarchical_label "EXTI4_IMU_INT"
 		(shape input)
 		(at 240.03 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8516,7 +8446,6 @@
 	(hierarchical_label "EXTI2_ADC_DRDY"
 		(shape input)
 		(at 240.03 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8528,7 +8457,6 @@
 	(hierarchical_label "M3_1"
 		(shape input)
 		(at 123.19 153.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8540,7 +8468,6 @@
 	(hierarchical_label "USART1_RX"
 		(shape input)
 		(at 99.06 190.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8552,7 +8479,6 @@
 	(hierarchical_label "M4_3"
 		(shape input)
 		(at 123.19 168.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8564,7 +8490,6 @@
 	(hierarchical_label "SWDIO"
 		(shape input)
 		(at 36.83 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8573,22 +8498,9 @@
 		)
 		(uuid "7d448f6e-a0db-4eeb-8de7-d87bd58a7711")
 	)
-	(hierarchical_label "M5_3"
-		(shape input)
-		(at 97.79 154.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "848ba579-8d6e-4a4b-b651-6d5bfb977b00")
-	)
 	(hierarchical_label "SWO"
 		(shape input)
 		(at 97.79 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8600,7 +8512,6 @@
 	(hierarchical_label "M4_1"
 		(shape input)
 		(at 97.79 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8612,7 +8523,6 @@
 	(hierarchical_label "M2_2"
 		(shape input)
 		(at 59.69 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8624,7 +8534,6 @@
 	(hierarchical_label "M3_2"
 		(shape input)
 		(at 123.19 156.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8636,7 +8545,6 @@
 	(hierarchical_label "M5_2"
 		(shape input)
 		(at 123.19 176.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8648,7 +8556,6 @@
 	(hierarchical_label "SWCLK"
 		(shape input)
 		(at 36.83 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8660,7 +8567,6 @@
 	(hierarchical_label "M5_1"
 		(shape input)
 		(at 123.19 173.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8669,10 +8575,20 @@
 		)
 		(uuid "92caa372-c3e4-4f64-b975-13a8e1f08097")
 	)
+	(hierarchical_label "M5_1"
+		(shape input)
+		(at 97.79 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93c00bbb-8f1d-4f98-ae43-2fc340d840fa")
+	)
 	(hierarchical_label "M3_3"
 		(shape input)
 		(at 123.19 158.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8684,7 +8600,6 @@
 	(hierarchical_label "M2_4"
 		(shape input)
 		(at 59.69 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8696,7 +8611,6 @@
 	(hierarchical_label "M1_1"
 		(shape input)
 		(at 123.19 143.51 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8708,7 +8622,6 @@
 	(hierarchical_label "USART1_RX"
 		(shape input)
 		(at 97.79 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8720,7 +8633,6 @@
 	(hierarchical_label "I2C1_SCL"
 		(shape input)
 		(at 97.79 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8729,10 +8641,20 @@
 		)
 		(uuid "9b12172a-dbf8-4e14-808b-9e4f182c0243")
 	)
+	(hierarchical_label "M5_4"
+		(shape input)
+		(at 97.79 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c555d79-2ef9-42b8-8ca7-06db387ebd62")
+	)
 	(hierarchical_label "M3_2"
 		(shape input)
 		(at 97.79 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8744,7 +8666,6 @@
 	(hierarchical_label "M4_1"
 		(shape input)
 		(at 123.19 163.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8756,7 +8677,6 @@
 	(hierarchical_label "NRST"
 		(shape input)
 		(at 36.83 25.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8765,22 +8685,9 @@
 		)
 		(uuid "a269eb58-7671-4250-ab0a-0784f56abd18")
 	)
-	(hierarchical_label "TIM1_CH1_PWM"
-		(shape input)
-		(at 245.11 31.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a29afb07-53e8-4ee5-8747-7ae6f7a23f43")
-	)
 	(hierarchical_label "GPIO_ADC_SYNC"
 		(shape input)
 		(at 97.79 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8792,7 +8699,6 @@
 	(hierarchical_label "GPIO_ADC_RST"
 		(shape input)
 		(at 97.79 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8804,7 +8710,6 @@
 	(hierarchical_label "EXTI4_IMU_INT"
 		(shape input)
 		(at 97.79 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8816,7 +8721,6 @@
 	(hierarchical_label "M1_3"
 		(shape input)
 		(at 59.69 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8828,7 +8732,6 @@
 	(hierarchical_label "TIM1_CH1_PWM"
 		(shape input)
 		(at 97.79 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8840,7 +8743,6 @@
 	(hierarchical_label "GPIO_IMU_P0"
 		(shape input)
 		(at 240.03 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8852,7 +8754,6 @@
 	(hierarchical_label "SWCLK"
 		(shape input)
 		(at 97.79 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8864,7 +8765,6 @@
 	(hierarchical_label "SPI1_MOSI"
 		(shape input)
 		(at 240.03 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8876,7 +8776,6 @@
 	(hierarchical_label "M4_2"
 		(shape input)
 		(at 97.79 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8888,7 +8787,6 @@
 	(hierarchical_label "GPIO_SPI1_CS"
 		(shape input)
 		(at 97.79 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8900,7 +8798,6 @@
 	(hierarchical_label "GPIO_TOF_XSHUT"
 		(shape input)
 		(at 240.03 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8912,7 +8809,6 @@
 	(hierarchical_label "SPI1_MOSI"
 		(shape input)
 		(at 97.79 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8924,7 +8820,6 @@
 	(hierarchical_label "SPI3_MISO"
 		(shape input)
 		(at 59.69 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8936,7 +8831,6 @@
 	(hierarchical_label "GPIO_SPI3_CS"
 		(shape input)
 		(at 97.79 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8948,7 +8842,6 @@
 	(hierarchical_label "GPIO_ADC_SYNC"
 		(shape input)
 		(at 240.03 147.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8960,7 +8853,6 @@
 	(hierarchical_label "M2_3"
 		(shape input)
 		(at 123.19 189.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8972,7 +8864,6 @@
 	(hierarchical_label "M1_1"
 		(shape input)
 		(at 59.69 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8984,7 +8875,6 @@
 	(hierarchical_label "SPI1_MISO"
 		(shape input)
 		(at 240.03 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8996,7 +8886,6 @@
 	(hierarchical_label "V_{IN}"
 		(shape input)
 		(at 54.61 21.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9008,7 +8897,6 @@
 	(hierarchical_label "USART1_TX"
 		(shape input)
 		(at 99.06 187.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9020,7 +8908,6 @@
 	(hierarchical_label "SPI3_MOSI"
 		(shape input)
 		(at 240.03 137.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9032,7 +8919,6 @@
 	(hierarchical_label "GPIO_IMU_RST"
 		(shape input)
 		(at 59.69 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9044,7 +8930,6 @@
 	(hierarchical_label "M4_4"
 		(shape input)
 		(at 123.19 171.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9056,7 +8941,6 @@
 	(hierarchical_label "GPIO_SPI1_CS"
 		(shape input)
 		(at 240.03 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9196,73 +9080,6 @@
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 24.13 187.96 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a90540b-0e0e-4760-aa7a-17770bcc4d4d")
-		(property "Reference" "H2"
-			(at 26.67 185.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3"
-			(at 26.67 187.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 24.13 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 24.13 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "256ae357-b51d-4d3d-b72b-0e347056c254")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -9627,73 +9444,6 @@
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 15.24 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "193391f2-dd61-460d-919d-cba0e3b465ef")
-		(property "Reference" "#PWR030"
-			(at 15.24 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 15.24 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 15.24 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 15.24 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 15.24 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "67962324-7330-4ea3-9be6-694edaf1c0ee")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -10293,140 +10043,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 41.91 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d355c92-ccef-45e2-a3c5-795cb7e159eb")
-		(property "Reference" "#PWR033"
-			(at 41.91 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 41.91 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41506f74-e8d4-461b-8e5e-ccdb3fcab1db")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 15.24 187.96 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d49776b-6fe7-4ab1-8733-ec27db34b345")
-		(property "Reference" "H1"
-			(at 17.78 185.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3"
-			(at 17.78 187.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 15.24 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 15.24 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 15.24 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4851287a-1fd3-48c4-8b7b-bfe418019921")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 129.54 31.75 180)
 		(unit 1)
@@ -10769,73 +10385,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 33.02 187.96 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54cbf84b-00c7-457a-8cc5-a590b6c3e6cc")
-		(property "Reference" "H3"
-			(at 35.56 185.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3"
-			(at 35.56 187.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 33.02 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 33.02 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75fecb61-0f02-4472-bec7-1a0453786bac")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 138.43 63.5 0)
 		(unit 1)
@@ -11168,6 +10717,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 24.13 187.96 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "647bf78b-d13f-49a9-be19-f06d44143004")
+		(property "Reference" "H2"
+			(at 26.67 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 26.67 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 24.13 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 24.13 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "robotic_hand_pcb"
+				(path "/96df9010-a1f8-4419-aac0-9388de87cb21"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 38.1 115.57 0)
 		(unit 1)
@@ -11436,73 +11049,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 24.13 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f34a527-bc3c-4bd9-b466-c84f9fcc0023")
-		(property "Reference" "#PWR031"
-			(at 24.13 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 24.13 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf0055d9-14dc-4335-a5f7-4baa652de655")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 210.82 48.26 0)
 		(unit 1)
@@ -11763,73 +11309,6 @@
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 41.91 187.96 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "801a43aa-5d93-4d69-9686-0be2fa45104d")
-		(property "Reference" "H4"
-			(at 44.45 185.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3"
-			(at 44.45 187.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 41.91 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 41.91 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e8c9096-0a0f-440f-adda-563a02bdb0de")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21"
-					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -12920,73 +12399,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3471746-9a28-41ab-b0f5-2e5e4d9346a2")
-		(property "Reference" "#PWR032"
-			(at 33.02 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 33.02 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8bc06c6-0cae-47d9-aca5-fa5dc54a2f5f")
-		)
-		(instances
-			(project "robotic_hand_pcb"
-				(path "/96df9010-a1f8-4419-aac0-9388de87cb21"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 59.69 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13387,6 +12799,70 @@
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 15.24 187.96 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c09aab66-6adc-4d1a-8308-c21ded8e6990")
+		(property "Reference" "H1"
+			(at 17.78 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 17.78 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 15.24 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 15.24 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 15.24 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/96df9010-a1f8-4419-aac0-9388de87cb21"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -13849,6 +13325,70 @@
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 41.91 187.96 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cafe6fc4-39d5-4b79-a226-ac95fcb4fbd1")
+		(property "Reference" "H4"
+			(at 44.45 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 44.45 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 41.91 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 41.91 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "robotic_hand_pcb"
+				(path "/96df9010-a1f8-4419-aac0-9388de87cb21"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -14744,6 +14284,70 @@
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 33.02 187.96 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9edacad-2acf-4118-a880-b58cbf41f182")
+		(property "Reference" "H3"
+			(at 35.56 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 35.56 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 33.02 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 33.02 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "robotic_hand_pcb"
+				(path "/96df9010-a1f8-4419-aac0-9388de87cb21"
+					(reference "H3")
 					(unit 1)
 				)
 			)
