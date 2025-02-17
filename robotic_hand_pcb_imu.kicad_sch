@@ -2206,6 +2206,7 @@
 	(hierarchical_label "IMU_MOSI"
 		(shape input)
 		(at 72.39 76.2 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2217,6 +2218,7 @@
 	(hierarchical_label "IMU_CS"
 		(shape input)
 		(at 72.39 71.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2228,6 +2230,7 @@
 	(hierarchical_label "IMU_INT"
 		(shape input)
 		(at 115.57 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2239,6 +2242,7 @@
 	(hierarchical_label "IMU_MISO"
 		(shape input)
 		(at 72.39 78.74 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2250,6 +2254,7 @@
 	(hierarchical_label "IMU_NRST"
 		(shape input)
 		(at 53.34 63.5 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2261,6 +2266,7 @@
 	(hierarchical_label "IMU_PS0"
 		(shape input)
 		(at 72.39 66.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2272,6 +2278,7 @@
 	(hierarchical_label "IMU_SCK"
 		(shape input)
 		(at 72.39 73.66 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
