@@ -15,4 +15,6 @@
   (lib (name "ti_buck")(type "KiCad")(uri "${KIPRJMOD}/component_library/ti_buck.pretty")(options "")(descr ""))
   (lib (name "time_of_flight")(type "KiCad")(uri "${KIPRJMOD}/component_library/time_of_flight.pretty")(options "")(descr ""))
   (lib (name "ublox")(type "KiCad")(uri "${KIPRJMOD}/component_library/ublox.pretty")(options "")(descr ""))
+  (lib (name "robotic_hand_pcb_connectors")(type "KiCad")(uri "${KIPRJMOD}/component_local/robotic_hand_pcb_connectors.pretty")(options "")(descr ""))
+  (lib (name "robotic_hand_pcb_inductor")(type "KiCad")(uri "${KIPRJMOD}/component_local/robotic_hand_pcb_inductor.pretty")(options "")(descr ""))
 )
