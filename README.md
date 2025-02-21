@@ -57,15 +57,33 @@ support here: [💖 Sponsors/PCBWay](#pcbway).
 
 ### 2.1 Connectors
 
-| Connector          | Ref | Description                 |
-|--------------------|:---:|-----------------------------|
-| Tag-Connect TC2050 |     | Programming/debug connector |
+| Connector                       | Ref | Description                                           |
+|---------------------------------|:---:|-------------------------------------------------------|
+| Tag-Connect TC2050              |     | Programming/debug connector                           |
+| UART Breakout                   |     | General purpose UART breakout                         |
+| VL53L4CD Breakout               |     | Breakout connector for TOF sensor                     |
+| WS2812B PWM LEDs                |     | 5 V Addressable LED breakout                          |
+| Battery to buck (5 V) regulator |     | Pin 1: Ground, Pin 2: Battery supply (> 5 V, <= 36 V) |
+| Unipolar Motor 1                |     | Robotic finger 1 motor                                |
+| Unipolar Motor 2                |     | Robotic finger 2 motor                                |
+| Unipolar Motor 3                |     | Robotic finger 3 motor                                |
+| Unipolar Motor 4                |     | Robotic finger 4 motor                                |
+| Unipolar Motor 5                |     | Robotic finger 5 motor                                |
+| ADC 1                           |     | 5 V analog input 1                                    |
+| ADC 2                           |     | 5 V analog input 2                                    |
+| ADC 3                           |     | 5 V analog input 3                                    |
+| ADC 4                           |     | 5 V analog input 4                                    |
+| ADC 5                           |     | 5 V analog input 5                                    |
+| ADC 6                           |     | 5 V analog input 6                                    |
+| ADC 7                           |     | 5 V analog input 7                                    |
 
 ### 2.2 Switches & Jumpers
 
-| Switch/Jumper     | Ref | Description                           |
-|-------------------|:---:|---------------------------------------|
-| MCU NRESET switch |     | Generic 6 mm TH button, push to reset |
+| Switch/Jumper         | Ref | Description                                           |
+|-----------------------|:---:|-------------------------------------------------------|
+| MCU NRESET switch     |     | Generic 6 mm TH button, push to reset                 |
+| BNO085 clock select   |     | Open = crystal, closed = external/internal            |
+| VL53L4CD breakout INT |     | Open = no breakout, closed = bridge breakout INT line |
 
 ---
 
