@@ -164,7 +164,7 @@ $$\Delta i_L = \frac{V_{OUT} \times \left( V_{IN \space MAX} - V_{OUT} \right)}{
 
 The minimum inductor specification is given by:
 
-$$L_{min} = \frac{V_{\text{IN_MAX}} - V_{\text{OUT}}}{I_{\text{OUT}} \times K_{\text{IND}}} \times \frac{V_{\text{OUT}}}{V_{\text{IN_MAX}} \times f_{\text{SW}}}$$
+$$L_{min} = \frac{V_{\text{IN MAX}} - V_{\text{OUT}}}{I_{\text{OUT}} \times K_{\text{IND}}} \times \frac{V_{\text{OUT}}}{V_{\text{IN MAX}} \times f_{\text{SW}}}$$
 $$L_{min} = \frac{12 \space \text{V} - 5 \space \text{V}}{3 \space \text{A} \times 0.3} \times \frac{5 \space \text{V}}{12 \space \text{V} \times 500 \times 10^{3} \space \text{Hz}}$$
 $$L_{min} = 6.84 \times 10^{-6} \space \text{H} = 6.84 \space \mathrm{\mu H}$$
 
@@ -175,7 +175,7 @@ $$L_{min} = 6.84 \times 10^{-6} \space \text{H} = 6.84 \space \mathrm{\mu H}$$
       >
       > - Datasheet section: _9.2.2.4 Inductor Selection_.
 - $f_{\text{SW}}$ = Switching frequency, 500 kHz chosen.
-- $V_{\text{IN_MAX}}$ = Input voltage, expected 12 V with ±1 V, 13 V.
+- $V_{\text{IN MAX}}$ = Input voltage, expected 12 V with ±1 V, 13 V.
 - $V_{\text{OUT}}$ = Output voltage, 5 V.
 - $I_{\text{OUT}}$ = Output current, approximately 3 A.
 
@@ -214,12 +214,12 @@ application values provided for a 12V input and 5V output, which uses 6.8 μH.
 
 Inductor current ripple flowing through the ESR is given by:
 
-$$\Delta V_{\text{OUT_ESR}} = \Delta i_L \times \text{ESR} = K_{\text{IND}} \times I_{\text{OUT}} \times \text{ESR}$$
+$$\Delta V_{\text{OUT ESR}} = \Delta i_L \times \text{ESR} = K_{\text{IND}} \times I_{\text{OUT}} \times \text{ESR}$$
 
 Inductor current ripple charging and discharging the output capacitors is given
 by:
 
-$$\Delta V_{\text{OUT_C}} = \frac{\Delta i_L}{8 \times f_{\text{SW}} \times C_{\text{OUT}}} = \frac{K_{\text{IND}} \times I_{\text{OUT}}}{8 \times f_{\text{SW}} \times C_{\text{OUT}}}$$
+$$\Delta V_{\text{OUT C}} = \frac{\Delta i_L}{8 \times f_{\text{SW}} \times C_{\text{OUT}}} = \frac{K_{\text{IND}} \times I_{\text{OUT}}}{8 \times f_{\text{SW}} \times C_{\text{OUT}}}$$
 
 - $K_{\text{IND}}$ = target ripple ratio of the inductor
   current ($\Delta i L / I_{\text{OUT}}$).
@@ -227,16 +227,16 @@ $$\Delta V_{\text{OUT_C}} = \frac{\Delta i_L}{8 \times f_{\text{SW}} \times C_{\
 The minimum output capacitance needed for a specified output voltage overshoot
 and undershoot is given by:
 
-$$C_{\text{OUT}} > \frac{1}{2} \times \frac{8 \times (I_{\text{OH}} - I_{\text{OL}})}{f_{\text{SW}} \times \Delta V_{\text{OUT_SHOOT}}}$$
+$$C_{\text{OUT}} > \frac{1}{2} \times \frac{8 \times (I_{\text{OH}} - I_{\text{OL}})}{f_{\text{SW}} \times \Delta V_{\text{OUT SHOOT}}}$$
 
 - $I_{\text{OL}}$ = low level output current during load transient.
 - $I_{\text{OH}}$ = high level output current during load transient.
-- $V_{\text{OUT_SHOOT}}$ = target output voltage overshoot or undershoot.
+- $V_{\text{OUT SHOOT}}$ = target output voltage overshoot or undershoot.
 
 For this project a target output ripple is arbitrarily set for 30 mV and the
 ripple ratio of inductor current is set to 0.3.
 
-- $\Delta V_{\text{OUT_ESR}} = \Delta V_{\text{OUT_C}} = 30 mV$
+- $\Delta V_{\text{OUT ESR}} = \Delta V_{\text{OUT C}} = 30 mV$
 - $K_{\text{IND}} = 0.3$
 
 This yields ESR < 75 mΩ and output capacitance > 14 μF.
