@@ -20,12 +20,17 @@ repo: [robotic_hand](https://github.com/danielljeon/robotic_hand).
     * [2.1 Connectors](#21-connectors)
     * [2.2 Switches & Jumpers](#22-switches--jumpers)
   * [3 Release Notes](#3-release-notes)
-  * [4 Switching Buck Regulator](#4-switching-buck-regulator)
-    * [4.1 Load Current Estimation](#41-load-current-estimation)
-    * [4.2 Switching Frequency Selection](#42-switching-frequency-selection)
-    * [4.3 Inductor Selection](#43-inductor-selection)
-    * [4.4 Output Capacitor Selection](#44-output-capacitor-selection)
-    * [4.5 Input Capacitor Selection](#45-input-capacitor-selection)
+  * [4 Development Process](#4-development-process)
+    * [4.1 Simulations: PSpice for TI](#41-simulations-pspice-for-ti)
+    * [4.2 PCB Design: KiCad](#42-pcb-design-kicad)
+    * [4.3 Firmware: CLion and STM32CubeMX](#43-firmware-clion-and-stm32cubemx)
+    * [4.4. Version Control: GitHub](#44-version-control-github)
+  * [5 Switching Buck Regulator](#5-switching-buck-regulator)
+    * [5.1 Load Current Estimation](#51-load-current-estimation)
+    * [5.2 Switching Frequency Selection](#52-switching-frequency-selection)
+    * [5.3 Inductor Selection](#53-inductor-selection)
+    * [5.4 Output Capacitor Selection](#54-output-capacitor-selection)
+    * [5.5 Input Capacitor Selection](#55-input-capacitor-selection)
   * [💖 Sponsors](#-sponsors)
     * [PCBWay](#pcbway)
       * [Why PCBWay?](#why-pcbway)
@@ -68,24 +73,66 @@ support here: [💖 Sponsors/PCBWay](#pcbway).
 
 ---
 
-## 4 Switching Buck Regulator
+## 4 Development Process
+
+### 4.1 Simulations: PSpice for TI
+
+[PSpice for TI](https://www.ti.com/tool/PSPICE-FOR-TI) by Cadence and Texas
+Instruments (TI) is a free limited-feature version of Cadence PSpice,
+specifically made for Texas Instruments' analog and power electronics
+components.
+
+Given the significant use of TI components (ADC IC, darlington transistor arrays
+and buck regulators) for this project, PSpice for TI was chosen as the primarily
+design verification and virtual testing tool.
+
+### 4.2 PCB Design: KiCad
+
+[KiCad](https://www.kicad.org/) was chosen for PCB design due to its ease of use
+as a free, open-source software. Additionally, prior experience and personal
+preference played a key role in the decision.
+
+### 4.3 Firmware: CLion and STM32CubeMX
+
+[CLion](https://www.jetbrains.com/clion/)
+and [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html) from
+STMicroelectronics were selected based on prior experience and personal
+preference. STM32CubeMX is utilized for initial component selection, pin
+configuration, and HAL software generation, while CLion is used for general C
+firmware development. For more details,
+see [robotic_hand](https://github.com/danielljeon/robotic_hand).
+
+### 4.4. Version Control: GitHub
+
+[GitHub](https://github.com/) was chosen for its efficiency in version control
+and support for Actions automations. These automations facilitated testing,
+validation, and various manufacturing-related processes for both hardware and
+software development.
+
+---
+
+## 5 Switching Buck Regulator
 
 The LMR51430 was chosen for its wide output voltage range of 4.5 V to 36 V, high
 current 3 A and efficiency.
 
 > Datasheet: Datasheet: LMR51430 SLUSEF4A – JUNE 2022 – REVISED NOVEMBER 2022.
 
-### 4.1 Load Current Estimation
+> Big thanks, as always, to the amazing publicly available resources online 👑:
+> 1. [Switching Regulator PCB Design - Phil's Lab #60](https://www.youtube.com/watch?v=AmfLhT5SntE)
+> 2. [Switching Regulator Component Selection & Sizing - Phil's Lab #71](https://www.youtube.com/watch?v=FqT_Ofd54fo)
+
+### 5.1 Load Current Estimation
 
 The expected current load is as follows:
 
 | Load              | Current | n |
 |-------------------|---------|---|
-| Motors & drivers  | 500 mA  | 5 |
+| Motors + drivers  | 500 mA  | 5 |
 | WS2812B leds      | 60 mA   | 1 |
 | 3.3 V ICs via LDO | 100 mA  | 1 |
 
-Approximate total current draw: 2660 mA or 2.66 A at 5 V.
+Approximate total current draw: 2660 mA = 2.66 A at 5 V.
 
 In a real-world engineering scenario, current draw would be estimated using more
 accurate models and measured across various revisions of development boards.
@@ -97,14 +144,14 @@ While this provides only an 11% safety margin, it was deemed acceptable for
 early research and educational purposes. In the worst-case scenario, the board
 can also be powered by an external 5 V power supply if needed.
 
-### 4.2 Switching Frequency Selection
+### 5.2 Switching Frequency Selection
 
 The LMR51430 is capable of 500 kHz and 1.1 MHz. 500 kHz is used reduced noise
 and its application of motor current driving. A lower switching frequency would
 theoretically reduce switching losses and improve efficiency at high current
 draw.
 
-### 4.3 Inductor Selection
+### 5.3 Inductor Selection
 
 The following calculations are based on the recommendations provided in the
 LMR51430 datasheet.
@@ -152,7 +199,7 @@ $$L_{min} = 6.84 \times 10^{-6} \space \text{H} = 6.84 \space \mathrm{\mu H}$$
 The final minimum inductance value of 6.84 μH closely matches the example
 application values provided for a 12V input and 5V output, which uses 6.8 μH.
 
-### 4.4 Output Capacitor Selection
+### 5.4 Output Capacitor Selection
 
 > Minimize the output capacitance to keep cost and size down. The output
 > capacitor or capacitors, COUT, must be chosen with care because it directly
@@ -169,7 +216,7 @@ Inductor current ripple flowing through the ESR is given by:
 
 $$\Delta V_{\text{OUT_ESR}} = \Delta i_L \times \text{ESR} = K_{\text{IND}} \times I_{\text{OUT}} \times \text{ESR}$$
 
-Inductor current ripple charning and discharging the output capacitors is given
+Inductor current ripple charging and discharging the output capacitors is given
 by:
 
 $$\Delta V_{\text{OUT_C}} = \frac{\Delta i_L}{8 \times f_{\text{SW}} \times C_{\text{OUT}}} = \frac{K_{\text{IND}} \times I_{\text{OUT}}}{8 \times f_{\text{SW}} \times C_{\text{OUT}}}$$
@@ -194,7 +241,7 @@ ripple ratio of inductor current is set to 0.3.
 
 This yields ESR < 75 mΩ and output capacitance > 14 μF.
 
-### 4.5 Input Capacitor Selection
+### 5.5 Input Capacitor Selection
 
 > The LMR51430 device requires a high frequency input decoupling capacitor or
 > capacitor. The typical recommended value for the high frequency decoupling
