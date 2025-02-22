@@ -51,6 +51,10 @@ support here: [💖 Sponsors/PCBWay](#pcbway).
 
 ## 1 Overview
 
+|                            Top                             |                              Bottom                              |
+|:----------------------------------------------------------:|:----------------------------------------------------------------:|
+| ![robotic_hand_pcb-top.png](docs/robotic_hand_pcb-top.png) | ![robotic_hand_pcb-bottom.png](docs/robotic_hand_pcb-bottom.png) |
+
 ---
 
 ## 2 Board Specifications
