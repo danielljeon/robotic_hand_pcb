@@ -1,5 +1,7 @@
 # robotic_hand_pcb
 
+![kibot](https://github.com/danielljeon/robotic_hand_pcb/actions/workflows/kibot.yaml/badge.svg)
+
 Robotic hand project for actuators/power electronics and sensors/instrumentation
 university courses (PCB hardware).
 
@@ -61,33 +63,36 @@ support here: [💖 Sponsors/PCBWay](#pcbway).
 
 ### 2.1 Connectors
 
-| Connector                       | Ref | Description                                           |
-|---------------------------------|:---:|-------------------------------------------------------|
-| Tag-Connect TC2050              |     | Programming/debug connector                           |
-| UART Breakout                   |     | General purpose UART breakout                         |
-| VL53L4CD Breakout               |     | Breakout connector for TOF sensor                     |
-| WS2812B PWM LEDs                |     | 5 V Addressable LED breakout                          |
-| Battery to buck (5 V) regulator |     | Pin 1: Ground, Pin 2: Battery supply (> 5 V, <= 36 V) |
-| Unipolar Motor 1                |     | Robotic finger 1 motor                                |
-| Unipolar Motor 2                |     | Robotic finger 2 motor                                |
-| Unipolar Motor 3                |     | Robotic finger 3 motor                                |
-| Unipolar Motor 4                |     | Robotic finger 4 motor                                |
-| Unipolar Motor 5                |     | Robotic finger 5 motor                                |
-| ADC 1                           |     | 5 V analog input 1                                    |
-| ADC 2                           |     | 5 V analog input 2                                    |
-| ADC 3                           |     | 5 V analog input 3                                    |
-| ADC 4                           |     | 5 V analog input 4                                    |
-| ADC 5                           |     | 5 V analog input 5                                    |
-| ADC 6                           |     | 5 V analog input 6                                    |
-| ADC 7                           |     | 5 V analog input 7                                    |
+| Connector                       |  Ref  | Description                                           |
+|---------------------------------|:-----:|-------------------------------------------------------|
+| VL53L4CD Breakout               | (J)U6 | Breakout connector for TOF sensor                     |
+| USB-C 5 V power                 |  J1   | Power only USB-C, primary 5 V source                  |
+| Tag-Connect TC2050              |  J2   | Programming/debug connector                           |
+| Battery to buck (5 V) regulator |  J3   | Pin 1: Ground, Pin 2: Battery supply (> 5 V, <= 36 V) |
+| 5V Breakout                     |  J4   | 5 V analog input 7                                    |
+| BOOT0 jumper                    |  J5   | Open for run flash memory (pull-down on open)         |
+| UART Breakout                   |  J6   | General purpose UART breakout                         |
+| WS2812B PWM LEDs                |  J7   | 5 V Addressable LED breakout                          |
+| ADC 1                           |  J8   | 5 V analog input 1                                    |
+| ADC 2                           |  J9   | 5 V analog input 2                                    |
+| ADC 3                           |  J10  | 5 V analog input 3                                    |
+| ADC 4                           |  J11  | 5 V analog input 4                                    |
+| ADC 5                           |  J12  | 5 V analog input 5                                    |
+| ADC 6                           |  J13  | 5 V analog input 6                                    |
+| ADC 7                           |  J14  | 5 V analog input 7                                    |
+| Unipolar Motor 1                |  J15  | Robotic finger 1 motor                                |
+| Unipolar Motor 2                |  J16  | Robotic finger 2 motor                                |
+| Unipolar Motor 3                |  J17  | Robotic finger 3 motor                                |
+| Unipolar Motor 4                |  J18  | Robotic finger 4 motor                                |
+| Unipolar Motor 5                |  J19  | Robotic finger 5 motor                                |
 
 ### 2.2 Switches & Jumpers
 
 | Switch/Jumper         | Ref | Description                                           |
 |-----------------------|:---:|-------------------------------------------------------|
-| MCU NRESET switch     |     | Generic 6 mm TH button, push to reset                 |
-| BNO085 clock select   |     | Open = crystal, closed = external/internal            |
-| VL53L4CD breakout INT |     | Open = no breakout, closed = bridge breakout INT line |
+| MCU NRESET switch     | SW1 | Generic 6 mm TH button, push to reset                 |
+| VL53L4CD breakout INT | JP1 | Open = no breakout, closed = bridge breakout INT line |
+| BNO085 clock select   | JP2 | Open = crystal, closed = external/internal            |
 
 ---
 
