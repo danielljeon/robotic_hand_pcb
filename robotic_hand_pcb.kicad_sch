@@ -8214,7 +8214,7 @@
 		)
 		(uuid "0fcc4d6a-b5cc-43eb-9a70-bf94faaa097d")
 	)
-	(hierarchical_label "EXTI4_TOF_INT"
+	(hierarchical_label "EXTI5_TOF_INT"
 		(shape input)
 		(at 240.03 71.12 180)
 		(effects
@@ -8291,17 +8291,6 @@
 		)
 		(uuid "2ec70f00-701c-4fa5-b40c-e0c64685aa65")
 	)
-	(hierarchical_label "GPIO_TOF_XSHUT"
-		(shape input)
-		(at 97.79 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2fad0dfe-c5f8-46c2-a995-a3cf06ef5554")
-	)
 	(hierarchical_label "USART1_TX"
 		(shape input)
 		(at 97.79 104.14 0)
@@ -8334,17 +8323,6 @@
 			(justify right)
 		)
 		(uuid "3229892d-df0b-4653-bc68-c589e8136e1c")
-	)
-	(hierarchical_label "EXTI4_TOF_INT"
-		(shape input)
-		(at 97.79 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "32517aa5-d723-4d8f-9fe3-3052742f9275")
 	)
 	(hierarchical_label "M4_3"
 		(shape input)
@@ -8907,6 +8885,17 @@
 		)
 		(uuid "a269eb58-7671-4250-ab0a-0784f56abd18")
 	)
+	(hierarchical_label "GPIO_TOF_XSHUT"
+		(shape input)
+		(at 97.79 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a32c856a-ee2c-444a-9480-cd4802e08644")
+	)
 	(hierarchical_label "GPIO_ADC_SYNC"
 		(shape input)
 		(at 97.79 109.22 0)
@@ -8928,6 +8917,17 @@
 			(justify left)
 		)
 		(uuid "a51594b7-5cef-4122-a3e9-8e3af696ccca")
+	)
+	(hierarchical_label "EXTI5_TOF_INT"
+		(shape input)
+		(at 97.79 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9085d51-8a94-48e3-a453-b19f6a0a50ad")
 	)
 	(hierarchical_label "EXTI4_IMU_INT"
 		(shape input)
