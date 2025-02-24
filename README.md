@@ -22,6 +22,7 @@ repo: [robotic_hand](https://github.com/danielljeon/robotic_hand).
     * [2.1 Connectors](#21-connectors)
     * [2.2 Switches & Jumpers](#22-switches--jumpers)
   * [3 Release Notes](#3-release-notes)
+    * [3.1 v0.1.0](#31-v010)
   * [4 Development Process](#4-development-process)
     * [4.1 Simulations: PSpice for TI](#41-simulations-pspice-for-ti)
     * [4.2 PCB Design: KiCad](#42-pcb-design-kicad)
@@ -97,6 +98,13 @@ support here: [💖 Sponsors/PCBWay](#pcbway).
 ---
 
 ## 3 Release Notes
+
+### 3.1 v0.1.0
+
+- Production oriented 4-layer board variant.
+    - Designed for single production run given course project requirement.
+- Order date: 2025/02/23.
+- Order number: `W837000ASB9`.
 
 ---
 
