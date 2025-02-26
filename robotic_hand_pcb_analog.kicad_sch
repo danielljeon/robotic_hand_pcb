@@ -3437,6 +3437,7 @@
 	)
 	(label "ADC4"
 		(at 15.24 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3447,6 +3448,7 @@
 	)
 	(label "ADC6"
 		(at 91.44 35.56 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3457,6 +3459,7 @@
 	)
 	(label "ADC2"
 		(at 15.24 59.69 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3467,6 +3470,7 @@
 	)
 	(label "ADC10"
 		(at 15.24 77.47 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3477,6 +3481,7 @@
 	)
 	(label "ADC1"
 		(at 15.24 85.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3487,6 +3492,7 @@
 	)
 	(label "ADC3"
 		(at 15.24 52.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3497,6 +3503,7 @@
 	)
 	(label "ADC5"
 		(at 15.24 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3507,6 +3514,7 @@
 	)
 	(label "ADC9"
 		(at 167.64 35.56 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3517,6 +3525,7 @@
 	)
 	(label "ADC6"
 		(at 15.24 62.23 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3527,6 +3536,7 @@
 	)
 	(label "ADC8"
 		(at 142.24 35.56 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3537,6 +3547,7 @@
 	)
 	(label "ADC11"
 		(at 218.44 35.56 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3547,6 +3558,7 @@
 	)
 	(label "ADC1"
 		(at 55.88 143.51 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3557,6 +3569,7 @@
 	)
 	(label "ADC10"
 		(at 193.04 35.56 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3567,6 +3580,7 @@
 	)
 	(label "ADC4"
 		(at 208.28 143.51 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3577,6 +3591,7 @@
 	)
 	(label "ADC12"
 		(at 15.24 82.55 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3587,6 +3602,7 @@
 	)
 	(label "ADC11"
 		(at 15.24 80.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3597,6 +3613,7 @@
 	)
 	(label "ADC7"
 		(at 116.84 35.56 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3607,6 +3624,7 @@
 	)
 	(label "ADC9"
 		(at 15.24 72.39 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3617,6 +3635,7 @@
 	)
 	(label "ADC5"
 		(at 259.08 143.51 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3627,6 +3646,7 @@
 	)
 	(label "ADC3"
 		(at 157.48 143.51 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3637,6 +3657,7 @@
 	)
 	(label "ADC12"
 		(at 243.84 35.56 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3647,6 +3668,7 @@
 	)
 	(label "ADC8"
 		(at 15.24 69.85 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3657,6 +3679,7 @@
 	)
 	(label "ADC2"
 		(at 106.68 143.51 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3667,6 +3690,7 @@
 	)
 	(label "ADC7"
 		(at 15.24 64.77 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3678,6 +3702,7 @@
 	(hierarchical_label "ADC_DRDY"
 		(shape input)
 		(at 59.69 69.85 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3689,6 +3714,7 @@
 	(hierarchical_label "ADC_CS"
 		(shape input)
 		(at 59.69 62.23 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3700,6 +3726,7 @@
 	(hierarchical_label "ADC_MISO"
 		(shape input)
 		(at 59.69 64.77 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3711,6 +3738,7 @@
 	(hierarchical_label "ADC_SCK"
 		(shape input)
 		(at 59.69 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3722,6 +3750,7 @@
 	(hierarchical_label "ADC_MOSI"
 		(shape input)
 		(at 59.69 59.69 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3733,6 +3762,7 @@
 	(hierarchical_label "ADC_RST"
 		(shape input)
 		(at 59.69 52.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3744,6 +3774,7 @@
 	(hierarchical_label "ADC_SYNC"
 		(shape input)
 		(at 59.69 46.99 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

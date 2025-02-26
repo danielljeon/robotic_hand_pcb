@@ -789,6 +789,7 @@
 	(hierarchical_label "WS2812B_PWM"
 		(shape input)
 		(at 41.91 39.37 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
