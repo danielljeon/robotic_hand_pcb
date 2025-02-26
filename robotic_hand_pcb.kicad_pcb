@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "Robotic Hand PCB")
-		(rev "v0.1.0")
+		(rev "0.1.1")
 		(company "Daniel Jeon")
 	)
 	(layers
@@ -30875,7 +30875,7 @@
 			)
 		)
 	)
-	(gr_text "Daniel Jeon\nrobotic_hand_pcb\nv0.1.0"
+	(gr_text "Daniel Jeon\nrobotic_hand_pcb\nv0.1.1"
 		(at 130 116.5 0)
 		(layer "F.SilkS")
 		(uuid "7c2728c7-6cb5-441c-ad66-41bf8e324a55")
