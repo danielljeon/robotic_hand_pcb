@@ -24,7 +24,7 @@ repo: [robotic_hand](https://github.com/danielljeon/robotic_hand).
   * [3 Release Notes](#3-release-notes)
     * [3.1 v0.1.0](#31-v010)
   * [4 Development Process](#4-development-process)
-    * [4.1 Simulations: PSpice for TI](#41-simulations-pspice-for-ti)
+    * [4.1 Simulations: OrCAD X (PSpice)](#41-simulations-orcad-x-pspice)
     * [4.2 PCB Design: KiCad](#42-pcb-design-kicad)
     * [4.3 Firmware: CLion and STM32CubeMX](#43-firmware-clion-and-stm32cubemx)
     * [4.4. Version Control: GitHub](#44-version-control-github)
@@ -110,16 +110,19 @@ support here: [💖 Sponsors/PCBWay](#pcbway).
 
 ## 4 Development Process
 
-### 4.1 Simulations: PSpice for TI
+### 4.1 Simulations: OrCAD X (PSpice)
 
-[PSpice for TI](https://www.ti.com/tool/PSPICE-FOR-TI) by Cadence and Texas
-Instruments (TI) is a free limited-feature version of Cadence PSpice,
-specifically made for Texas Instruments' analog and power electronics
-components.
+[OrCAD X (PSpice)](https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/analog-mixed-signal-simulation/pspice.html)
+by Cadence was used for circuit simulation and evaluation.
 
-Given the significant use of TI components (ADC IC, darlington transistor arrays
-and buck regulators) for this project, PSpice for TI was chosen as the primarily
-design verification and virtual testing tool.
+Since this project relies heavily on Texas Instruments (TI) components (ADC ICs,
+Darlington transistor arrays, and buck regulators), PSpice was chosen for design
+verification and virtual testing. TI provides official PSpice models, making
+simulations more accurate and reliable.
+
+Initially, [PSpice for TI](https://www.ti.com/tool/PSPICE-FOR-TI) (a free
+version limited to TI parts) was used. Upgrading to OrCAD X enabled full
+compatibility and broader simulation capabilities.
 
 ### 4.2 PCB Design: KiCad
 
