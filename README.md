@@ -151,8 +151,8 @@ software development.
 
 ## 5 Switching Buck Regulator
 
-The LMR51430 was chosen for its wide output voltage range of 4.5 V to 36 V, high
-current 3 A and efficiency.
+The LMR51430 was chosen for its wide input voltage range of 4.5 V to 36 V, high
+output current of 3 A and overall efficiency.
 
 > Datasheet: Datasheet: LMR51430 SLUSEF4A – JUNE 2022 – REVISED NOVEMBER 2022.
 
@@ -167,7 +167,7 @@ The expected current load is as follows:
 | Load              | Current | n |
 |-------------------|---------|---|
 | Motors + drivers  | 500 mA  | 5 |
-| WS2812B leds      | 60 mA   | 1 |
+| WS2812B LEDs      | 60 mA   | 1 |
 | 3.3 V ICs via LDO | 100 mA  | 1 |
 
 Approximate total current draw: 2660 mA = 2.66 A at 5 V.
@@ -184,10 +184,10 @@ can also be powered by an external 5 V power supply if needed.
 
 ### 5.2 Switching Frequency Selection
 
-The LMR51430 is capable of 500 kHz and 1.1 MHz. 500 kHz is used reduced noise
-and its application of motor current driving. A lower switching frequency would
-theoretically reduce switching losses and improve efficiency at high current
-draw.
+The LMR51430 is capable of 500 kHz and 1.1 MHz switching. The design opted for
+the 500 kHz configuration for reduced switching noise and its application of
+motor current driving. A lower switching frequency would theoretically reduce
+switching losses and improve efficiency at high current draw.
 
 ### 5.3 Inductor Selection
 
