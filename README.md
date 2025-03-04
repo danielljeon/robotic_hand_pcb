@@ -34,6 +34,10 @@ repo: [robotic_hand](https://github.com/danielljeon/robotic_hand).
     * [5.3 Inductor Selection](#53-inductor-selection)
     * [5.4 Output Capacitor Selection](#54-output-capacitor-selection)
     * [5.5 Input Capacitor Selection](#55-input-capacitor-selection)
+    * [5.6 PSpice Simulation](#56-pspice-simulation)
+      * [5.6.1 Schematic](#561-schematic)
+      * [5.6.2 Output](#562-output)
+      * [5.6.3 Fast Fourier Transform (FFT)](#563-fast-fourier-transform-fft)
   * [💖 Sponsors](#-sponsors)
     * [PCBWay](#pcbway)
       * [Why PCBWay?](#why-pcbway)
@@ -289,6 +293,38 @@ This yields ESR < 75 mΩ and output capacitance > 14 μF.
 > capacitors, TI recommends a voltage rating of twice the maximum input voltage.
 >
 > - Datasheet section: _9.2.2.5 Output Capacitor Selection_.
+
+### 5.6 PSpice Simulation
+
+Due to the limited availability of publicly accessible PSpice models, the
+LMR51420 model was used instead. Based on datasheet specifications, the 2A
+variant of the LMR514x0 series appears largely similar, with the primary
+difference being the requirement for a 10 μH inductor.
+
+#### 5.6.1 Schematic
+
+![schematic.png](docs/pspice/schematic.png)
+
+To simulate sudden current loads, a 3.3 Ω load (drawing 1.5 A at 5 V) is added
+and set to switch at 4.2 ms. The switch has a transition time of 15 μs.
+
+#### 5.6.2 Output
+
+![output.png](docs/pspice/output.png)
+
+![output_load_switch.png](docs/pspice/output_load_switch.png)
+
+#### 5.6.3 Fast Fourier Transform (FFT)
+
+![fft.png](docs/pspice/fft.png)
+
+![fft_450-550khz_cursor.png](docs/pspice/fft_450-550khz_cursor.png)
+
+For this simulation run, the fundamental frequency was found to be 492.400 kHz
+with a resultant amplitude of 1.1316. Due to the short simulation duration, the
+time required to ramp up to the final voltage, and the handling of sudden loads,
+it is hypothesized that the FFT results deviate slightly from the expected 500
+kHz.
 
 ---
 
