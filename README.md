@@ -58,9 +58,14 @@ support here: [💖 Sponsors/PCBWay](#pcbway).
 
 ## 1 Overview
 
-|                            Top                             |                              Bottom                              |
-|:----------------------------------------------------------:|:----------------------------------------------------------------:|
-| ![robotic_hand_pcb-top.png](docs/robotic_hand_pcb-top.png) | ![robotic_hand_pcb-bottom.png](docs/robotic_hand_pcb-bottom.png) |
+|                                 Top                                 |                                  Bottom                                   |
+|:-------------------------------------------------------------------:|:-------------------------------------------------------------------------:|
+|     ![robotic_hand_pcb-top.png](docs/robotic_hand_pcb-top.png)      |     ![robotic_hand_pcb-bottom.png](docs/robotic_hand_pcb-bottom.png)      |
+| ![software_variant_top.png](docs/pictures/software_variant_top.png) | ![software_variant_bottom.png](docs/pictures/software_variant_bottom.png) |
+| ![enclosed_variant_top.png](docs/pictures/enclosed_variant_top.png) | ![enclosed_variant_bottom.png](docs/pictures/enclosed_variant_bottom.png) |
+
+- Pictures show v0.1.0 production run. The second row is a software development
+  variant and the bottom row is an enclosed no digital sensor variant assembly.
 
 ---
 
