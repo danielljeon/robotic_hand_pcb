@@ -1709,10 +1709,6 @@
 		(at 22.86 41.91)
 		(uuid "94d2ef00-60db-419d-bee9-b50bbf922567")
 	)
-	(no_connect
-		(at 22.86 46.99)
-		(uuid "a9012cf4-28bc-41f1-8a60-492dd19d2e22")
-	)
 	(wire
 		(pts
 			(xy 29.21 30.48) (xy 29.21 29.21)
@@ -1912,6 +1908,16 @@
 			(type default)
 		)
 		(uuid "19e8302a-c89f-439b-969a-39b72a906674")
+	)
+	(wire
+		(pts
+			(xy 21.59 48.26) (xy 21.59 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a6b4c3f-6475-42a8-9656-7dc509625f12")
 	)
 	(wire
 		(pts
@@ -2612,6 +2618,16 @@
 			(type default)
 		)
 		(uuid "81b55bd3-a6e1-4867-a6ec-276d3ee7c3c3")
+	)
+	(wire
+		(pts
+			(xy 21.59 46.99) (xy 22.86 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81bb3da1-2bb0-483c-ad89-15e9c63a8375")
 	)
 	(wire
 		(pts
@@ -5250,6 +5266,73 @@
 			(project "robotic_hand_pcb"
 				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/6d226a0a-d50a-47f5-bbb2-5bf13499a56e"
 					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 21.59 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "351f8694-8e2f-4cb6-9dde-6da565335256")
+		(property "Reference" "#PWR0122"
+			(at 21.59 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 21.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "187bf1ed-7a83-40ac-b2ea-39b05674b59a")
+		)
+		(instances
+			(project "robotic_hand_pcb"
+				(path "/96df9010-a1f8-4419-aac0-9388de87cb21/6d226a0a-d50a-47f5-bbb2-5bf13499a56e"
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
