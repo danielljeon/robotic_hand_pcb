@@ -21,6 +21,7 @@ repo: [robotic_hand](https://github.com/danielljeon/robotic_hand).
   * [2 Board Specifications](#2-board-specifications)
     * [2.1 Connectors](#21-connectors)
     * [2.2 Switches & Jumpers](#22-switches--jumpers)
+    * [2.3 Test Pads](#23-test-pads)
   * [3 Release Notes](#3-release-notes)
     * [3.1 v0.1.0](#31-v010)
   * [4 Development Process](#4-development-process)
@@ -103,6 +104,12 @@ support here: [💖 Sponsors/PCBWay](#pcbway).
 | MCU NRESET switch     | SW1 | Generic 6 mm TH button, push to reset                 |
 | VL53L4CD breakout INT | JP1 | Open = no breakout, closed = bridge breakout INT line |
 | BNO085 clock select   | JP2 | Open = crystal, closed = external/internal            |
+
+### 2.3 Test Pads
+
+| Switch/Jumper   | Ref | Description                                                       |
+|-----------------|:---:|-------------------------------------------------------------------|
+| LMR51430 enable | TP1 | Buck converter enable pin (tied to VIN Battery supply by default) |
 
 ---
 
