@@ -107,7 +107,7 @@ support here: [💖 Sponsors/PCBWay](#pcbway).
 
 ### 2.3 Test Pads
 
-| Switch/Jumper   | Ref | Description                                                       |
+| Test Pad        | Ref | Description                                                       |
 |-----------------|:---:|-------------------------------------------------------------------|
 | LMR51430 enable | TP1 | Buck converter enable pin (tied to VIN Battery supply by default) |
 
