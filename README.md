@@ -20,6 +20,7 @@ repo: [robotic_hand](https://github.com/danielljeon/robotic_hand).
   * [1 Overview](#1-overview)
   * [2 Board Specifications](#2-board-specifications)
     * [2.1 Connectors](#21-connectors)
+      * [2.1.1 BAT+/VIN Terminals](#211-batvin-terminals)
     * [2.2 Switches & Jumpers](#22-switches--jumpers)
     * [2.3 Test Pads](#23-test-pads)
   * [3 Release Notes](#3-release-notes)
@@ -74,28 +75,43 @@ support here: [💖 Sponsors/PCBWay](#pcbway).
 
 ### 2.1 Connectors
 
-| Connector                       |  Ref  | Description                                           |
-|---------------------------------|:-----:|-------------------------------------------------------|
-| VL53L4CD Breakout               | (J)U6 | Breakout connector for TOF sensor                     |
-| USB-C 5 V power                 |  J1   | Power only USB-C, primary 5 V source                  |
-| Tag-Connect TC2050              |  J2   | Programming/debug connector                           |
-| Battery to buck (5 V) regulator |  J3   | Pin 1: Ground, Pin 2: Battery supply (> 5 V, <= 36 V) |
-| 5V Breakout                     |  J4   | 5 V analog input 7                                    |
-| BOOT0 jumper                    |  J5   | Open for run flash memory (pull-down on open)         |
-| UART Breakout                   |  J6   | General purpose UART breakout                         |
-| WS2812B PWM LEDs                |  J7   | 5 V Addressable LED breakout                          |
-| ADC 1                           |  J8   | 5 V analog input 1                                    |
-| ADC 2                           |  J9   | 5 V analog input 2                                    |
-| ADC 3                           |  J10  | 5 V analog input 3                                    |
-| ADC 4                           |  J11  | 5 V analog input 4                                    |
-| ADC 5                           |  J12  | 5 V analog input 5                                    |
-| ADC 6                           |  J13  | 5 V analog input 6                                    |
-| ADC 7                           |  J14  | 5 V analog input 7                                    |
-| Unipolar Motor 1                |  J15  | Robotic finger 1 motor                                |
-| Unipolar Motor 2                |  J16  | Robotic finger 2 motor                                |
-| Unipolar Motor 3                |  J17  | Robotic finger 3 motor                                |
-| Unipolar Motor 4                |  J18  | Robotic finger 4 motor                                |
-| Unipolar Motor 5                |  J19  | Robotic finger 5 motor                                |
+| Connector          |  Ref  | Description                                                                                                              |
+|--------------------|:-----:|--------------------------------------------------------------------------------------------------------------------------|
+| VL53L4CD Breakout  | (J)U6 | Breakout connector for TOF sensor                                                                                        |
+| USB-C 5 V power    |  J1   | Power only USB-C, primary 5 V source                                                                                     |
+| Tag-Connect TC2050 |  J2   | Programming/debug connector                                                                                              |
+| BAT+/VIN           |  J3   | Pin 1: (GND) Ground, Pin 2: (BAT+) Power supply (> 5 V, <= 36 V), see [2.1.1 BAT+/VIN Terminals](#211-batvin-terminals). |
+| 5V Breakout        |  J4   | 5 V analog input 7                                                                                                       |
+| BOOT0 jumper       |  J5   | Open for run flash memory (pull-down on open)                                                                            |
+| UART Breakout      |  J6   | General purpose UART breakout                                                                                            |
+| WS2812B PWM LEDs   |  J7   | 5 V Addressable LED breakout                                                                                             |
+| ADC 1              |  J8   | 5 V analog input 1                                                                                                       |
+| ADC 2              |  J9   | 5 V analog input 2                                                                                                       |
+| ADC 3              |  J10  | 5 V analog input 3                                                                                                       |
+| ADC 4              |  J11  | 5 V analog input 4                                                                                                       |
+| ADC 5              |  J12  | 5 V analog input 5                                                                                                       |
+| ADC 6              |  J13  | 5 V analog input 6                                                                                                       |
+| ADC 7              |  J14  | 5 V analog input 7                                                                                                       |
+| Unipolar Motor 1   |  J15  | Robotic finger 1 motor                                                                                                   |
+| Unipolar Motor 2   |  J16  | Robotic finger 2 motor                                                                                                   |
+| Unipolar Motor 3   |  J17  | Robotic finger 3 motor                                                                                                   |
+| Unipolar Motor 4   |  J18  | Robotic finger 4 motor                                                                                                   |
+| Unipolar Motor 5   |  J19  | Robotic finger 5 motor                                                                                                   |
+
+- All generic breakout connectors are standard 2.54 mm pitch Harwin connectors
+  except for the BAT+/VIN connector.
+
+#### 2.1.1 BAT+/VIN Terminals
+
+The battery or supply terminals for the LMR51430 (5 V) buck regulator are custom
+sizes designed for higher gauge wires.
+
+The **recommended supply voltage is 12 V**, however the LMR51430 has a
+theoretical range up to 36 volts.
+
+- Hole: 1.5 mm diameter.
+- Pad: 2.5 mm diameter.
+- Pitch: 4 mm (center-to-center distance).
 
 ### 2.2 Switches & Jumpers
 
