@@ -25,6 +25,7 @@ repo: [robotic_hand](https://github.com/danielljeon/robotic_hand).
     * [2.3 Test Pads](#23-test-pads)
   * [3 Release Notes](#3-release-notes)
     * [3.1 v0.1.0](#31-v010)
+    * [3.2 v0.2.0](#32-v020)
   * [4 Development Process](#4-development-process)
     * [4.1 Simulations: OrCAD X (PSpice)](#41-simulations-orcad-x-pspice)
     * [4.2 PCB Design: KiCad](#42-pcb-design-kicad)
@@ -137,6 +138,15 @@ theoretical range up to 36 volts.
     - Designed for single production run given course project requirement.
 - Order date: 2025/02/23.
 - Order number: `W837000ASB9`.
+
+### 3.2 v0.2.0
+
+- Updated PCB for hand reworks on `v0.1.0` to get full ADS114S08 feature
+  functionality.
+    - Requires software changes for this functionality, thus semantic versioning
+      minor value was moved to `2`.
+    - Rework shown in picture below:
+      ![v0-2-0_rework.png](docs/pictures/v0-2-0_rework.png)
 
 ---
 
