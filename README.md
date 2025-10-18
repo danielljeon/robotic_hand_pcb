@@ -61,9 +61,9 @@ support here: [💖 Sponsors/PCBWay](#pcbway).
 
 ## 1 Overview
 
-|                          Robotic Hand Assembly                          |
-|:-----------------------------------------------------------------------:|
-| ![robotic_hand_assembly.jpeg](docs/pictures/robotic_hand_assembly.jpeg) |
+|                        Hand Assembly Back                         |                         Hand Assembly Front                         |
+|:-----------------------------------------------------------------:|:-------------------------------------------------------------------:|
+| ![hand_assembly_back.jpeg](docs/pictures/hand_assembly_back.jpeg) | ![hand_assembly_front.jpeg](docs/pictures/hand_assembly_front.jpeg) |
 
 |                                 Top                                 |                                  Bottom                                   |
 |:-------------------------------------------------------------------:|:-------------------------------------------------------------------------:|
@@ -148,7 +148,7 @@ theoretical range up to 36 volts.
     - Requires software changes for this functionality, thus semantic versioning
       minor value was moved to `2`.
     - Rework shown in picture below:
-      ![v0-2-0_rework.png](docs/pictures/v0-2-0_rework.png)
+      ![v0-2-0_rework.jpeg](docs/pictures/v0-2-0_rework.jpeg)
 
 ---
 
